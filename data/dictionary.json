@@ -1,0 +1,615 @@
+[
+  {
+    "id": "naam",
+    "gurmukhi": "ਨਾਮ",
+    "transliteration": "Naam",
+    "alt": ["Nam"],
+    "partOfSpeech": "noun",
+    "meaning": "The Divine Name; not a label but the living presence/reality of the Divine, realized through remembrance.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "नामन् (nāman) — \"name\"",
+      "note": "A pan-Indian root shared by nearly every devotional (Bhakti) tradition, not coined by Sikhi. Gurbani takes the ordinary word for 'name' and elevates it into a theological category: the Name as accessible form of the otherwise formless Divine."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji", "Bhagat Ravidas Ji", "Bhagat Namdev Ji"],
+      "note": "Used identically across Guru Bani and Bhagat Bani because 'Naam-simran' (remembrance of the Name) was the shared vocabulary of the whole Sant/Bhakti movement before and during Guru Nanak's time. Kabir ji's usage draws on his own Sant-Bhasha Bhakti idiom, not on Punjabi court language — so the word's charge comes from that Bhakti stream, which Gurbani absorbs directly."
+    },
+    "relatedIds": ["simran", "shabad"]
+  },
+  {
+    "id": "hukam",
+    "gurmukhi": "ਹੁਕਮ",
+    "transliteration": "Hukam",
+    "alt": ["Hukum"],
+    "partOfSpeech": "noun",
+    "meaning": "The Divine Order/Will — the underlying law by which all of creation moves; also, ordinary 'command' in Persian-derived usage.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Persian / Arabic",
+      "rootForm": "حکم (ḥukm) — \"command, judgment, ruling\"",
+      "note": "Entered Punjabi through the Persian-administered courts and chancery language of medieval Punjab, where 'hukam' meant a ruler's decree. Guru Nanak takes this everyday administrative/Mughal-era word and reuses it for cosmic order — 'hukam rajai chalna' (walking in step with the Order) in Japji Sahib — rather than substituting a native Sanskrit-Punjabi term."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji"],
+      "note": "A clear case where the historical/political language of the era (Persian court idiom) supplies the word, and Gurbani keeps that Persian shape rather than Sanskritizing it."
+    },
+    "relatedIds": ["karam"]
+  },
+  {
+    "id": "shabad",
+    "gurmukhi": "ਸ਼ਬਦ",
+    "transliteration": "Shabad",
+    "alt": ["Sabad", "Sabd"],
+    "partOfSpeech": "noun",
+    "meaning": "The Word — both a hymn/composition in Gurbani and, philosophically, the divine sound/vibration through which truth is revealed.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "शब्द (śabda) — \"sound, word\"",
+      "note": "Carries the older Indian philosophical charge of śabda-brahman (reality as sound/word), a concept already current in Vedantic and Bhakti thought before Guru Nanak. Kabir ji's shabads use the same weight of the term — the Word as guide — showing the concept is inherited, then re-centered on the Guru's Word."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji", "Guru Arjan Dev Ji"],
+      "note": "Consistent across all contributors to Guru Granth Sahib; each author's 'shabad' still means their own hymn, but the underlying concept of Shabad-as-truth is common Sant-tradition ground, not Punjabi-specific."
+    },
+    "relatedIds": ["naam"]
+  },
+  {
+    "id": "nirankar",
+    "gurmukhi": "ਨਿਰੰਕਾਰ",
+    "transliteration": "Nirankar",
+    "alt": ["Nirankaar"],
+    "partOfSpeech": "adjective/noun",
+    "meaning": "The Formless One — God without shape or physical form.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Nir / निर्", "meaning": "without, free of (Sanskrit negating prefix)" },
+      { "part": "Akar / आकार", "meaning": "form, shape (Sanskrit ākāra)" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "निर् + आकार (nir + ākāra)",
+      "note": "A transparent Sanskrit compound. The 'formless God' idea is central to Nirguna Bhakti generally (Kabir uses 'Nirakar' too), so the word and the concept both predate their specific use in Gurbani."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji"],
+      "note": "Featured in the Mool Mantar tradition of describing God's attributes; the term is shared vocabulary of the Nirguna (formless-God) wing of the Bhakti movement rather than a Sikhi coinage."
+    },
+    "relatedIds": ["ik-onkar"]
+  },
+  {
+    "id": "waheguru",
+    "gurmukhi": "ਵਾਹਿਗੁਰੂ",
+    "transliteration": "Waheguru",
+    "alt": ["Vaheguru", "Wahiguru"],
+    "partOfSpeech": "noun/exclamation",
+    "meaning": "Wondrous Lord/Teacher — the most common Sikh name for God, an exclamation of wonder joined to the word for Guru.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Wahi / وه", "meaning": "\"wondrous, wow\" — a Persian exclamation of awe/praise" },
+      { "part": "Guru / गुरु", "meaning": "teacher, dispeller of darkness (Sanskrit guru)" }
+    ],
+    "etymology": {
+      "rootLanguage": "Persian + Sanskrit (hybrid)",
+      "rootForm": "واه (wāh) + गुरु (guru)",
+      "note": "A genuine hybrid: a Persian exclamation of astonishment fused to a Sanskrit title of reverence. Its crystallization as the Sikh name for God is documented in Bhai Gurdas Ji's writings, reflecting Punjab's everyday bilingual Persian–Sanskrit speech of the period rather than either language alone."
+    },
+    "context": {
+      "associatedWith": ["Bhai Gurdas Ji", "Sikh liturgical tradition"],
+      "note": "Not found as a fixed compound in the Guru Granth Sahib itself in this exact liturgical sense; it develops as living Sikh usage alongside the scripture, so its 'old-times' context is the spoken Persian-Punjabi of the Guru era, not classical Sanskrit scripture."
+    },
+    "relatedIds": ["guru", "satguru"]
+  },
+  {
+    "id": "satguru",
+    "gurmukhi": "ਸਤਿਗੁਰੂ",
+    "transliteration": "Satguru",
+    "alt": ["Sat Guru", "Satgur"],
+    "partOfSpeech": "noun",
+    "meaning": "The True Guru/Teacher — used for God, the Guru's presence, or the ten Gurus.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Sat / सत्", "meaning": "truth, true being (Sanskrit sat)" },
+      { "part": "Guru / गुरु", "meaning": "teacher (Sanskrit guru)" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "सत् + गुरु (sat + guru)",
+      "note": "A standard Sanskrit compound already used across Bhakti poetry — Kabir ji's dohas use 'Satguru' with the same sense of an inwardly truthful teacher, well before it became a core Sikh term."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji"],
+      "note": "Shows continuity between Kabir's Sant vocabulary and Gurbani's — the word doesn't need to be reinterpreted through Punjabi, it carries straight over from Sanskrit-rooted Bhakti idiom."
+    },
+    "relatedIds": ["waheguru", "guru"]
+  },
+  {
+    "id": "gurmukh",
+    "gurmukhi": "ਗੁਰਮੁਖ",
+    "transliteration": "Gurmukh",
+    "alt": [],
+    "partOfSpeech": "adjective/noun",
+    "meaning": "One who is oriented toward, and lives by, the Guru's teaching — 'Guru-facing.'",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Gur / गुरु", "meaning": "Guru, teacher" },
+      { "part": "Mukh / मुख", "meaning": "face, orientation, mouth (Sanskrit mukha)" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "गुरु + मुख (guru + mukha)",
+      "note": "A directional compound: literally 'facing the Guru.' The 'mukh' (face/orientation) construction mirrors a broader Indic pattern of describing spiritual disposition as which way one 'faces.'"
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji"],
+      "note": "Coined/used within Gurbani specifically as the theological counterpart to Manmukh; a Sikhi-specific pairing rather than inherited wholesale from earlier Bhakti authors."
+    },
+    "relatedIds": ["manmukh"]
+  },
+  {
+    "id": "manmukh",
+    "gurmukhi": "ਮਨਮੁਖ",
+    "transliteration": "Manmukh",
+    "alt": [],
+    "partOfSpeech": "adjective/noun",
+    "meaning": "One oriented toward their own mind/ego rather than the Guru — self-willed.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Man / मनस्", "meaning": "mind (Sanskrit manas)" },
+      { "part": "Mukh / मुख", "meaning": "face, orientation (Sanskrit mukha)" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "मनस् + मुख (manas + mukha)",
+      "note": "Built as the deliberate opposite of Gurmukh, using the same 'mukh' (facing) construction turned toward the self instead of the Guru."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji"],
+      "note": "Part of a Sikhi-specific conceptual pair; understanding it requires reading it against Gurmukh rather than in isolation."
+    },
+    "relatedIds": ["gurmukh", "haumai"]
+  },
+  {
+    "id": "simran",
+    "gurmukhi": "ਸਿਮਰਨ",
+    "transliteration": "Simran",
+    "alt": ["Simaran"],
+    "partOfSpeech": "noun",
+    "meaning": "Remembrance — the practice of keeping the Divine Name present in the mind.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "स्मरण (smaraṇa) — \"remembrance\" (root स्मृ smṛ, \"to remember\")",
+      "note": "Same root that gives 'smriti' (memory/remembered scripture) in wider Indian religious vocabulary. Its devotional sense — remembering God rather than merely recalling a fact — is a Bhakti-era development shared by Kabir, Ravidas, and Nanak alike."
+    },
+    "context": {
+      "associatedWith": ["Kabir Ji", "Guru Nanak Dev Ji", "Bhagat Ravidas Ji"],
+      "note": "A pan-Bhakti practice-word; Kabir ji's 'simran' and Guru Nanak's 'Naam simran' describe the same discipline inherited from the broader medieval devotional movement."
+    },
+    "relatedIds": ["naam", "bhagti"]
+  },
+  {
+    "id": "bhagti",
+    "gurmukhi": "ਭਗਤੀ",
+    "transliteration": "Bhagti",
+    "alt": ["Bhakti"],
+    "partOfSpeech": "noun",
+    "meaning": "Devotion — loving, participatory devotion to the Divine.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "भक्ति (bhakti), from root भज् (bhaj) — \"to share, partake, adore\"",
+      "note": "Predates Sikhi by centuries as the name of the whole pan-Indian Bhakti movement. When Kabir ji, Ravidas ji, or Namdev ji use 'bhagti,' they are using the movement's own founding term, which Guru Granth Sahib then incorporates directly through the inclusion of Bhagat Bani."
+    },
+    "context": {
+      "associatedWith": ["Kabir Ji", "Bhagat Ravidas Ji", "Bhagat Namdev Ji", "Guru Arjan Dev Ji"],
+      "note": "One of the clearest examples of a word whose meaning should be read through its Bhakti-movement origin rather than translated as a purely Punjabi/Sikh term."
+    },
+    "relatedIds": ["simran"]
+  },
+  {
+    "id": "sangat",
+    "gurmukhi": "ਸੰਗਤ",
+    "transliteration": "Sangat",
+    "alt": [],
+    "partOfSpeech": "noun",
+    "meaning": "Congregation — the company of the faithful gathered together; also 'Sadh Sangat,' company of the holy.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "सङ्गति / सङ्ग (saṅgati / saṅga) — \"association, company\"",
+      "note": "Reflects the broader Bhakti-era emphasis on 'satsang' (company of truth/truthful people); Gurbani's 'Sadh Sangat' is a direct continuation of that older devotional institution."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Guru Amar Das Ji"],
+      "note": "Institutionalized in Sikh practice (congregational worship), but the underlying word and the value placed on 'holy company' are shared with the wider Bhakti movement."
+    },
+    "relatedIds": ["kirtan", "langar"]
+  },
+  {
+    "id": "ik-onkar",
+    "gurmukhi": "ੴ (ਇੱਕ ਓਅੰਕਾਰ)",
+    "transliteration": "Ik Onkar",
+    "alt": ["Ek Onkar", "Ik Oankar"],
+    "partOfSpeech": "phrase/symbol",
+    "meaning": "'One, whose expression is Onkar' — the foundational statement of the oneness of God that opens Guru Granth Sahib.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Ik / एक", "meaning": "one (Sanskrit/Prakrit eka)" },
+      { "part": "Onkar / ਓਅੰਕਾਰ", "meaning": "the sound/syllable Om given form as 'kar' (creator/creation), from Sanskrit Om + kāra" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "एक (eka) + ओंकार (oṃkāra, from ओम् Om + कार kāra)",
+      "note": "Onkar reworks the Vedic/Upanishadic primal syllable Om (the pranava, considered the sound-seed of creation) — Guru Nanak takes this ancient sacred sound and prefixes 'Ik' to assert numerical, exclusive oneness, sharpening a Vedantic symbol into an explicit monotheistic statement."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji"],
+      "note": "The clearest example of a word reaching back to Vedic/Upanishadic sound-symbolism (Om) rather than to Punjabi or Persian roots — its 'old times' context is classical Sanskrit cosmology."
+    },
+    "relatedIds": ["nirankar"]
+  },
+  {
+    "id": "karam",
+    "gurmukhi": "ਕਰਮ",
+    "transliteration": "Karam",
+    "alt": ["Karm"],
+    "partOfSpeech": "noun",
+    "meaning": "Two distinct senses depending on origin: (1) 'action, deed, the moral law of cause and effect' (from Sanskrit); (2) 'grace, mercy, kindness' (from Persian/Arabic) — Gurbani most often uses the second sense for God's grace.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit AND Persian/Arabic (two unrelated homophones)",
+      "rootForm": "कर्म (karma, \"action\") vs. کرم (karam, \"generosity/grace\")",
+      "note": "A word that looks single in Gurmukhi script but is actually two separate loanwords that happened to converge in sound. Reading Gurbani correctly requires knowing which root is meant in a given line — 'karam' in the sense of divine grace (e.g. 'karam' bestowed by the Guru) comes from the Persian/Arabic side, not from the Sanskrit action/karma side, even though both spellings look identical in Gurmukhi."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Guru Arjan Dev Ji"],
+      "note": "A textbook case for why etymology must be checked per-occurrence rather than assumed from a single 'Punjabi meaning' — the same word carries two unrelated histories."
+    },
+    "relatedIds": ["hukam"]
+  },
+  {
+    "id": "maya",
+    "gurmukhi": "ਮਾਇਆ",
+    "transliteration": "Maya",
+    "alt": ["Maaya"],
+    "partOfSpeech": "noun",
+    "meaning": "Illusion/worldly attachment — the enchanting but transient material world that veils the truth.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "माया (māyā) — \"illusion, magical/creative power\"",
+      "note": "A core Vedantic term (the power that makes the illusory world appear real) absorbed wholesale into Bhakti poetry. Kabir ji's famous line describing Maya as a deceiver ('Maya maha thagni hum jani') uses the term exactly as Vedanta and the wider Bhakti tradition already understood it — Gurbani inherits, rather than redefines, this concept."
+    },
+    "context": {
+      "associatedWith": ["Kabir Ji", "Guru Nanak Dev Ji"],
+      "note": "Best read against classical Vedantic philosophy, since that is the tradition that gives the term its force before Kabir or Guru Nanak ever used it."
+    },
+    "relatedIds": ["haumai"]
+  },
+  {
+    "id": "haumai",
+    "gurmukhi": "ਹਉਮੈ",
+    "transliteration": "Haumai",
+    "alt": ["Haume"],
+    "partOfSpeech": "noun",
+    "meaning": "Egotism, self-centeredness — the 'I-am-me' sense that Gurbani names as the root spiritual obstacle.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Hau / ਹਉ", "meaning": "\"I\" (from Prakrit अहं ahaṁ, ultimately Sanskrit अहम्)" },
+      { "part": "Mai / ਮੈਂ", "meaning": "\"me\" — an emphatic doubling of the first person" }
+    ],
+    "etymology": {
+      "rootLanguage": "Prakrit / Sanskrit",
+      "rootForm": "अहं + मैं — doubled first-person pronoun",
+      "note": "Rather than borrowing the Sanskrit philosophical term 'ahamkara' (अहंकार, ego-principle) directly, Gurbani builds its own compound out of everyday Punjabi/Prakrit first-person words, doubled for emphasis — a native coinage naming the same problem Sanskrit philosophy calls ahamkara."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji"],
+      "note": "One of the few core terms that is a home-grown Gurbani compound rather than a direct Sanskrit or Persian loan, though it parallels the older Sanskrit concept of ahamkara."
+    },
+    "relatedIds": ["manmukh", "maya"]
+  },
+  {
+    "id": "sehaj",
+    "gurmukhi": "ਸਹਜ",
+    "transliteration": "Sehaj",
+    "alt": ["Sahaj"],
+    "partOfSpeech": "noun/adjective",
+    "meaning": "Natural spiritual equipoise — a state of effortless, innate balance and calm.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "सहज (sahaja) — \"born together with, innate, natural\" (सह saha \"with\" + ज ja \"born\")",
+      "note": "Before Sikhi, 'Sahaja' was already a key term of the Nath yogis and the Sahajiya Bhakti-Tantric currents that also shaped Kabir ji (himself in dialogue with Nath tradition). Gurbani takes this pre-existing yogic-Bhakti term for spontaneous inner balance and repositions it as the fruit of Naam-simran rather than of yogic technique."
+    },
+    "context": {
+      "associatedWith": ["Kabir Ji", "Nath yogic tradition", "Guru Nanak Dev Ji"],
+      "note": "Understanding 'Sehaj' benefits from knowing the Nath/Sahajiya background Kabir was answering, not just the later Sikh sense of the word."
+    },
+    "relatedIds": ["anhad", "sunn"]
+  },
+  {
+    "id": "anhad",
+    "gurmukhi": "ਅਨਹਦ",
+    "transliteration": "Anhad",
+    "alt": ["Anahad", "Anahat"],
+    "partOfSpeech": "adjective/noun",
+    "meaning": "Unstruck — the 'unstruck celestial melody,' an inner mystical sound heard without any physical instrument striking it.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "An / अन्", "meaning": "not, without (Sanskrit negating prefix)" },
+      { "part": "Had / आहत", "meaning": "struck (Sanskrit āhata, \"struck, hit\")" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "अनाहत (anāhata) — \"unstruck\"; from the older yogic term अनाहत नाद (anāhata nāda, \"unstruck sound\")",
+      "note": "A term from Nath-yogic and Upanishadic meditative tradition describing a mystical inner sound not produced by any physical collision (as ordinary sound is). Kabir ji, closely engaged with Nath yogis, uses 'Anhad' in this same inherited sense; Gurbani continues it as a metaphor for the constant, unproduced presence of the Divine."
+    },
+    "context": {
+      "associatedWith": ["Kabir Ji", "Nath yogic tradition", "Guru Nanak Dev Ji"],
+      "note": "Its full meaning is only visible against the yogic anāhata-nāda concept it comes from."
+    },
+    "relatedIds": ["sehaj", "shabad"]
+  },
+  {
+    "id": "amrit",
+    "gurmukhi": "ਅੰਮ੍ਰਿਤ",
+    "transliteration": "Amrit",
+    "alt": ["Amrat"],
+    "partOfSpeech": "noun",
+    "meaning": "Nectar of immortality — used for the Guru's Word/Naam as spiritually life-giving, and later for the initiation nectar of the Khalsa.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "A / अ", "meaning": "not, without (Sanskrit negating prefix)" },
+      { "part": "Mrit / मृत", "meaning": "death (Sanskrit mṛta, \"dead\")" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "अमृत (amṛta) — \"deathless, nectar of immortality\"",
+      "note": "Rooted in the old Vedic myth of the churning of the ocean (Samudra Manthan) that produces amrita, the drink of the gods' immortality. Bhakti and Sikh usage repurpose the word metaphorically — the Guru's Word or Naam as the true 'nectar' — rather than referring to the myth literally."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Guru Gobind Singh Ji"],
+      "note": "Its 'old-times' resonance goes back to Vedic mythology; the later Khalsa initiation sense (1699) is a distinct, additional historical layer on top of that older meaning."
+    },
+    "relatedIds": ["naam"]
+  },
+  {
+    "id": "panj-chor",
+    "gurmukhi": "ਪੰਜ ਚੋਰ",
+    "transliteration": "Panj Chor",
+    "alt": ["Panj Dut", "Five Thieves"],
+    "partOfSpeech": "phrase",
+    "meaning": "The 'Five Thieves' — Kaam (lust), Krodh (anger), Lobh (greed), Moh (attachment), and Hankar (pride), named as the five inner vices that rob a person of virtue.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Panj / पञ्च", "meaning": "five (Sanskrit pañca)" },
+      { "part": "Chor / चोर", "meaning": "thief (Sanskrit/Prakrit cora)" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "पञ्च + चोर (pañca + cora)",
+      "note": "The five vices themselves (Kaam, Krodh, Lobh, Moh, Hankar) are individually old Sanskrit ethical/psychological terms found broadly in Indian moral philosophy; Gurbani's contribution is naming the set together as 'thieves' who steal one's spiritual worth."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Guru Arjan Dev Ji"],
+      "note": "Each of the five component words can itself be looked up as a separate old Sanskrit ethical term; the group-metaphor of 'thieves' is the Gurbani framing layered on top."
+    },
+    "relatedIds": ["haumai"]
+  },
+  {
+    "id": "khalsa",
+    "gurmukhi": "ਖਾਲਸਾ",
+    "transliteration": "Khalsa",
+    "alt": [],
+    "partOfSpeech": "noun",
+    "meaning": "The 'pure ones' — the collective body of initiated Sikhs, belonging directly to the Guru/God with no intermediary.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Arabic / Persian",
+      "rootForm": "خالص (khāliṣ) — \"pure, clear, unmixed\"",
+      "note": "In Mughal administrative Persian, 'khalisa' land meant crown land held directly by the emperor, with no intermediary landlord. Guru Gobind Singh Ji repurposed this exact administrative image in 1699: the Khalsa belongs directly to the Guru/Akal Purakh, with no intermediary — a political-era word given a spiritual reframing."
+    },
+    "context": {
+      "associatedWith": ["Guru Gobind Singh Ji"],
+      "note": "A precise example of Mughal-Persian court vocabulary being repurposed for a Sikh institutional concept, in the same way 'hukam' was repurposed a century earlier by Guru Nanak."
+    },
+    "relatedIds": ["hukam"]
+  },
+  {
+    "id": "seva",
+    "gurmukhi": "ਸੇਵਾ",
+    "transliteration": "Seva",
+    "alt": ["Sewa"],
+    "partOfSpeech": "noun",
+    "meaning": "Selfless service, performed without expectation of reward.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "सेवा (sevā) — \"service, attendance\"",
+      "note": "A general Sanskrit devotional term (service to a deity, teacher, or elder) common across Indian religious traditions well before Sikhi, which Gurbani elevates into a core spiritual discipline alongside Naam and Sangat."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Guru Amar Das Ji"],
+      "note": "Institutionalized in practice (langar, communal labor) but the word itself is common Sanskrit-Bhakti vocabulary, not a coinage."
+    },
+    "relatedIds": ["langar", "sangat"]
+  },
+  {
+    "id": "langar",
+    "gurmukhi": "ਲੰਗਰ",
+    "transliteration": "Langar",
+    "alt": [],
+    "partOfSpeech": "noun",
+    "meaning": "The free community kitchen where all sit and eat together as equals.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Persian",
+      "rootForm": "لنگر (langar) — originally \"anchor,\" extended in Persian/Ottoman-Sufi usage to mean a hospice or public kitchen attached to a Sufi shrine",
+      "note": "Before Sikhi, 'langar' already denoted the free kitchens attached to Sufi hospices across the Persian-influenced Islamic world — the institution and its name both predate Guru Nanak. Sikhi adopts the existing Sufi-Persian institution and its name, then universalizes it by removing caste and hierarchy from who may sit and eat."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Guru Amar Das Ji", "Sufi hospice tradition"],
+      "note": "A strong example of a term whose 'old times' context is Sufi Persian hospitality practice, not Punjabi or Sanskrit."
+    },
+    "relatedIds": ["seva", "sangat"]
+  },
+  {
+    "id": "kirtan",
+    "gurmukhi": "ਕੀਰਤਨ",
+    "transliteration": "Kirtan",
+    "alt": ["Keertan"],
+    "partOfSpeech": "noun",
+    "meaning": "Devotional singing — chanting/singing the praises of God, typically to raag (musical measure).",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "कीर्तन (kīrtana), from कीर्ति (kīrti) — \"fame, praise\"",
+      "note": "A standard Sanskrit Bhakti term for singing praise (as in the wider 'kirtan/sankirtan' devotional-singing movements across India, e.g. among Vaishnava Bhakti groups) adopted directly, with Gurbani's own raag-based musical structure layered onto the practice."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Guru Arjan Dev Ji"],
+      "note": "Shares its root and general practice with the broader pan-Indian Bhakti devotional-singing tradition."
+    },
+    "relatedIds": ["shabad", "sangat"]
+  },
+  {
+    "id": "paath",
+    "gurmukhi": "ਪਾਠ",
+    "transliteration": "Paath",
+    "alt": ["Path"],
+    "partOfSpeech": "noun",
+    "meaning": "Reading/recitation of scripture (Guru Granth Sahib).",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "पाठ (pāṭha) — \"reading, recitation, lesson\"",
+      "note": "A generic Sanskrit word for textual recitation, used across Indian religious traditions for reading their own scriptures; Sikhi applies the same generic term to reading Guru Granth Sahib."
+    },
+    "context": {
+      "associatedWith": ["Sikh liturgical tradition"],
+      "note": "Not a specialized coinage — its plain meaning ('reading/recitation') is unchanged from general Sanskrit-derived usage."
+    },
+    "relatedIds": ["kirtan"]
+  },
+  {
+    "id": "vismaad",
+    "gurmukhi": "ਵਿਸਮਾਦ",
+    "transliteration": "Vismaad",
+    "alt": ["Vismad", "Wismaad"],
+    "partOfSpeech": "noun",
+    "meaning": "Wonder, awe — the state of amazed astonishment at the vastness of creation, central to Guru Nanak's Japji Sahib.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "विस्मय (vismaya) — \"wonder, astonishment\"",
+      "note": "A Sanskrit aesthetic/emotional term (one of the classical rasas, adbhuta-rasa, is built on the same root) that Guru Nanak develops at length in the 'Vismaad' passages of Japji Sahib describing awe at the scale of creation."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji"],
+      "note": "Best understood alongside the older Sanskrit aesthetic theory of wonder (adbhuta-rasa) that supplies its emotional register."
+    },
+    "relatedIds": ["ik-onkar"]
+  },
+  {
+    "id": "sunn",
+    "gurmukhi": "ਸੁੰਨ",
+    "transliteration": "Sunn",
+    "alt": ["Sunya", "Shunya"],
+    "partOfSpeech": "noun/adjective",
+    "meaning": "Void, emptiness — the primordial state before creation, described as 'Sunn Samadhi' (absorption in the void).",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "शून्य (śūnya) — \"void, empty, zero\"",
+      "note": "The same term used in classical Indian mathematics (zero) and in Buddhist/Vedantic philosophy (emptiness) and in Nath-yogic cosmology for the state before manifestation. Guru Nanak's 'Sunn Samadhi' draws directly on this shared Nath-yogic/Vedantic cosmological vocabulary, again reflecting Kabir's and the Naths' influence on the era's spiritual language."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Nath yogic tradition"],
+      "note": "Read together with 'Sehaj' and 'Anhad' — all three are part of the same inherited Nath-yogic cosmological vocabulary describing pre-creation and meditative states."
+    },
+    "relatedIds": ["sehaj", "anhad"]
+  },
+  {
+    "id": "ang-sang",
+    "gurmukhi": "ਅੰਗ ਸੰਗ",
+    "transliteration": "Ang Sang",
+    "alt": [],
+    "partOfSpeech": "phrase",
+    "meaning": "Ever-present, right beside one — as close and constant as one's own limb.",
+    "breakable": true,
+    "breakdown": [
+      { "part": "Ang / अङ्ग", "meaning": "limb, part of the body (Sanskrit aṅga)" },
+      { "part": "Sang / सङ्ग", "meaning": "with, together, in the company of (Sanskrit saṅga)" }
+    ],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "अङ्ग + सङ्ग (aṅga + saṅga)",
+      "note": "The phrase leans on the intimacy of 'ang' (a limb, inseparable from the body) to describe God's constant nearness — a vivid, physically-grounded image built from two ordinary Sanskrit-derived words."
+    },
+    "context": {
+      "associatedWith": ["Guru Arjan Dev Ji"],
+      "note": "A simple compound whose force comes from the everyday bodily meaning of 'ang' rather than from any specialized philosophical vocabulary."
+    },
+    "relatedIds": []
+  },
+  {
+    "id": "guru",
+    "gurmukhi": "ਗੁਰੂ",
+    "transliteration": "Guru",
+    "alt": [],
+    "partOfSpeech": "noun",
+    "meaning": "Teacher — one who removes the darkness of ignorance; used for the ten Sikh Gurus, for God, and for the Guru Granth Sahib.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Sanskrit",
+      "rootForm": "गुरु (guru) — literally \"heavy, weighty\" (with knowledge/authority)",
+      "note": "A pan-Indian term of long standing, used for teachers across virtually every Indian religious tradition (Hindu, Buddhist, Jain, Sikh). Note: the popular folk breakdown 'gu' (darkness) + 'ru' (light/remover) is a widely repeated devotional gloss, not an attested Sanskrit grammatical derivation — worth knowing the difference between the folk etymology and the linguistic one."
+    },
+    "context": {
+      "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji", "pan-Indian teacher tradition"],
+      "note": "Predates Sikhi by many centuries; Sikhi's distinctive contribution is investing the title in a line of ten human Gurus and then in the scripture itself (Guru Granth Sahib), not the word's origin."
+    },
+    "relatedIds": ["satguru", "waheguru"]
+  },
+  {
+    "id": "rabb",
+    "gurmukhi": "ਰੱਬ",
+    "transliteration": "Rabb",
+    "alt": ["Rab"],
+    "partOfSpeech": "noun",
+    "meaning": "Lord, God — a common, everyday Punjabi word for God, especially prominent in Baba Farid Ji's compositions.",
+    "breakable": false,
+    "breakdown": [],
+    "etymology": {
+      "rootLanguage": "Arabic",
+      "rootForm": "رب (Rabb) — \"Lord, Sustainer, Cherisher\"",
+      "note": "A core Qur'anic/Islamic term for God, carried into Punjabi through Sufi devotional usage. Baba Farid Ji, a Sufi saint whose bani appears in Guru Granth Sahib, uses 'Rabb' exactly as it functions in Islamic devotional Punjabi and Arabic-Persian Sufi poetry — its meaning should be read through that Sufi-Islamic tradition, not translated as if it were a Sanskrit-rooted Hindu term."
+    },
+    "context": {
+      "associatedWith": ["Baba Farid Ji", "Sufi tradition"],
+      "note": "The clearest single example in this dictionary of the principle that a word's source-language tradition (here, Arabic/Sufi) determines its correct reading, distinct from the Sanskrit-rooted terms used elsewhere in Guru Granth Sahib."
+    },
+    "relatedIds": ["khalsa"]
+  }
+]

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gurmat Kosh — A Dictionary of Gurmat Terms</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>ਗੁਰਮਤਿ ਕੋਸ਼ <span class="sub">Gurmat Kosh</span></h1>
+    <p class="tagline">Search a Gurmat word or concept — meaning, root breakdown, and the tradition/language it comes from.</p>
+    <div class="search-wrap">
+      <input id="search-input" type="text" autocomplete="off" spellcheck="false"
+        placeholder="Search in Gurmukhi, English, or by meaning — e.g. ਨਾਮ, Hukam, grace, formless..." />
+      <button id="clear-btn" aria-label="Clear search" hidden>&times;</button>
+    </div>
+    <div id="all-words" class="chip-row"></div>
+  </header>
+
+  <main id="results" class="results"></main>
+
+  <template id="entry-template">
+    <article class="entry-card">
+      <div class="entry-head">
+        <h2 class="gurmukhi"></h2>
+        <div class="translit"></div>
+        <div class="pos"></div>
+      </div>
+
+      <section class="block meaning-block">
+        <h3>Meaning</h3>
+        <p class="meaning"></p>
+      </section>
+
+      <section class="block breakdown-block">
+        <h3>Breakdown</h3>
+        <ul class="breakdown-list"></ul>
+      </section>
+
+      <section class="block etymology-block">
+        <h3>Origin / Root</h3>
+        <p class="etym-root"></p>
+        <p class="etym-note"></p>
+      </section>
+
+      <section class="block context-block">
+        <h3>Historical Context</h3>
+        <p class="context-used"></p>
+        <p class="context-note"></p>
+      </section>
+
+      <section class="block related-block">
+        <h3>Related terms</h3>
+        <div class="related-chips"></div>
+      </section>
+    </article>
+  </template>
+
+  <footer class="site-footer">
+    <p>This is a growing starter dictionary. Entries are a best-effort synthesis drawn from multiple traditions
+    (Sanskrit, Persian/Arabic, Sant Bhasha, Nath-yogic vocabulary) and should be cross-checked against primary
+    sources (Mahan Kosh, Guru Granth Kosh, and the bani itself) for scriptural precision.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
