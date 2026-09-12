@@ -17,6 +17,22 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji", "Bhagat Ravidas Ji", "Bhagat Namdev Ji"],
       "note": "Used identically across Guru Bani and Bhagat Bani because 'Naam-simran' (remembrance of the Name) was the shared vocabulary of the whole Sant/Bhakti movement before and during Guru Nanak's time. Kabir ji's usage draws on his own Sant-Bhasha Bhakti idiom, not on Punjabi court language — so the word's charge comes from that Bhakti stream, which Gurbani absorbs directly."
     },
+    "usageInContext": [
+      {
+        "note": "The word does not carry one fixed weight — in verses about separation (viyog) it marks the ache of felt absence; in verses about union (milaap) it names felt presence itself. Reading 'Naam' correctly means noticing which emotional register the surrounding lines are in, not applying one dictionary gloss everywhere.",
+        "source": "recurring pattern across Guru Granth Sahib",
+        "shabdarthHere": "remembrance / the Name",
+        "bhavarth": "a felt state of connectedness (or its ache in absence), not a fixed label — the same word marks opposite emotional poles depending on the shabad it sits in",
+        "relatesTo": ["simran", "hukam"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Reads 'Naam' as lived awareness of Hukam — the Divine Order operating through creation and one's own life — rather than a word or sound to be repeated. On this reading, Naam-simran is training attention to stay aware of that Order, not a ritual chant.",
+        "note": "General, publicly-known position — confirm exact wording against his own lectures on Naam before quoting it as his."
+      }
+    ],
     "relatedIds": ["simran", "shabad"]
   },
   {
@@ -37,6 +53,23 @@
       "associatedWith": ["Guru Nanak Dev Ji"],
       "note": "A clear case where the historical/political language of the era (Persian court idiom) supplies the word, and Gurbani keeps that Persian shape rather than Sanskritizing it."
     },
+    "usageInContext": [
+      {
+        "note": "'Hukam' is defined relationally, in the very same couplet, against 'Haumai': recognizing that all things stand within the Order is what directly loosens the sense of separate self. The two words are explained by their effect on each other, not in isolation.",
+        "source": "Japji Sahib, Pauri 1",
+        "pankti": "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮਿ ਨ ਕੋਇ ॥ ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੧॥",
+        "shabdarthHere": "all things stand within the Order; none stand outside it",
+        "bhavarth": "grasping Hukam is not separate from losing Haumai — one word's realization is the other word's dissolution",
+        "relatesTo": ["haumai"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Reads 'Hukam' as the observable law/order running through nature and one's own circumstances, to be understood by reasoning about cause and effect — not as a mysterious fatalistic decree accepted on faith alone.",
+        "note": "General, publicly-known position — confirm exact wording against his lectures on Japji Sahib before quoting it as his."
+      }
+    ],
     "relatedIds": ["karam"]
   },
   {
@@ -57,6 +90,22 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji", "Guru Arjan Dev Ji"],
       "note": "Consistent across all contributors to Guru Granth Sahib; each author's 'shabad' still means their own hymn, but the underlying concept of Shabad-as-truth is common Sant-tradition ground, not Punjabi-specific."
     },
+    "usageInContext": [
+      {
+        "note": "The same word denotes both a single composition (\"a shabad of the Guru\") and the philosophical Word-principle. Which sense is meant is only clear from context: a sentence about singing or recitation points to the first sense, a sentence about the nature of truth points to the second.",
+        "source": "general usage pattern across Guru Granth Sahib",
+        "shabdarthHere": "a specific hymn, or the underlying principle of the Word",
+        "bhavarth": "context — is the line talking about music/recitation, or about ultimate reality? — decides which of the two senses applies",
+        "relatesTo": ["naam", "kirtan"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Emphasizes reading a shabad primarily through its own internal logic and through parallel shabads elsewhere in Guru Granth Sahib (\"Gurbani viakhya Gurbani ton\" — let Gurbani interpret Gurbani), rather than through later external commentary layered on top of it.",
+        "note": "General, publicly-known methodological position, not a specific quote — verify against his own talks."
+      }
+    ],
     "relatedIds": ["naam"]
   },
   {
@@ -80,6 +129,23 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji"],
       "note": "Featured in the Mool Mantar tradition of describing God's attributes; the term is shared vocabulary of the Nirguna (formless-God) wing of the Bhakti movement rather than a Sikhi coinage."
     },
+    "usageInContext": [
+      {
+        "note": "Sits inside a connected chain of attributes in the Mool Mantar — Nirbhau (fearless), Nirvair (without enmity), Akal Murat (beyond time), Ajooni (unborn), Saibhang (self-existent). Its meaning is best read as one link in that chain rather than a standalone definition.",
+        "source": "Mool Mantar",
+        "pankti": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+        "shabdarthHere": "without form (implied by \"Akal Murat, Ajooni\" — beyond time, unborn)",
+        "bhavarth": "one attribute in a linked list defining what God is not, each word sharpening the one before it",
+        "relatesTo": ["ik-onkar"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Treats 'Nirankar' as a doctrinal statement ruling out any physical form or idol for God, used argumentatively against image-worship rather than as a merely poetic description.",
+        "note": "General, publicly-known position — confirm exact framing against his lectures before quoting it as his."
+      }
+    ],
     "relatedIds": ["ik-onkar"]
   },
   {
@@ -103,6 +169,21 @@
       "associatedWith": ["Bhai Gurdas Ji", "Sikh liturgical tradition"],
       "note": "Not found as a fixed compound in the Guru Granth Sahib itself in this exact liturgical sense; it develops as living Sikh usage alongside the scripture, so its 'old-times' context is the spoken Persian-Punjabi of the Guru era, not classical Sanskrit scripture."
     },
+    "usageInContext": [
+      {
+        "note": "Because the compound is not found as such in Guru Granth Sahib, its relational meaning has to be traced through where it does live: Sikh ardas (supplication), kirtan refrains, and the greeting 'Waheguru Ji Ka Khalsa' — contexts of address and exclamation, not scriptural exegesis of a single tuk.",
+        "source": "Sikh liturgical and devotional usage (post-Gurbani)",
+        "shabdarthHere": "an address of wonder to the Guru/God",
+        "bhavarth": "functions as living, spoken devotion rather than as a term whose sense is fixed by one scriptural verse"
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Treats 'Waheguru' as a contemplative address used in sustained remembrance, not a mantra expected to produce specific results by repetition alone.",
+        "note": "General, publicly-known position — confirm exact wording against his lectures before quoting it as his."
+      }
+    ],
     "relatedIds": ["guru", "satguru"]
   },
   {
@@ -126,6 +207,22 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji"],
       "note": "Shows continuity between Kabir's Sant vocabulary and Gurbani's — the word doesn't need to be reinterpreted through Punjabi, it carries straight over from Sanskrit-rooted Bhakti idiom."
     },
+    "usageInContext": [
+      {
+        "note": "Very often paired with 'seva' — \"Satgur ki seva\" (service/devotion to the True Guru) — so the word's practical, relational meaning is inseparable from what one does in response to it, not just what it names.",
+        "source": "recurring phrase pattern across Guru Granth Sahib",
+        "shabdarthHere": "the True Teacher",
+        "bhavarth": "a relationship enacted through seva, not only a title held by a person",
+        "relatesTo": ["seva"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Emphasizes 'Satguru' as pointing primarily to true guidance/the Shabad-Guru itself, rather than to reverence for a person's personality — consistent with a broader rationalist caution against personality-centered devotion.",
+        "note": "General, publicly-known position — confirm exact wording against his lectures before quoting it as his."
+      }
+    ],
     "relatedIds": ["waheguru", "guru"]
   },
   {
@@ -149,6 +246,15 @@
       "associatedWith": ["Guru Nanak Dev Ji"],
       "note": "Coined/used within Gurbani specifically as the theological counterpart to Manmukh; a Sikhi-specific pairing rather than inherited wholesale from earlier Bhakti authors."
     },
+    "usageInContext": [
+      {
+        "note": "Almost never defined alone in Gurbani — its meaning is drawn out by contrast with Manmukh in the same or neighboring lines. 'Facing the Guru' only means something concrete against its opposite, 'facing one's own mind.'",
+        "source": "recurring Gurmukh/Manmukh contrast across Guru Granth Sahib",
+        "shabdarthHere": "one whose face is turned toward the Guru",
+        "bhavarth": "an orientation of will, defined relationally against its opposite rather than as a standalone trait",
+        "relatesTo": ["manmukh"]
+      }
+    ],
     "relatedIds": ["manmukh"]
   },
   {
@@ -172,6 +278,15 @@
       "associatedWith": ["Guru Nanak Dev Ji"],
       "note": "Part of a Sikhi-specific conceptual pair; understanding it requires reading it against Gurmukh rather than in isolation."
     },
+    "usageInContext": [
+      {
+        "note": "Functions as the mirror-term to Gurmukh; wherever it appears, the surrounding lines are implicitly measuring the described person against Guru-oriented living, even when 'Gurmukh' itself isn't in the same line.",
+        "source": "recurring Gurmukh/Manmukh contrast across Guru Granth Sahib",
+        "shabdarthHere": "one whose face is turned toward their own mind",
+        "bhavarth": "a relational, not standalone, category — always implicitly measured against Gurmukh",
+        "relatesTo": ["gurmukh", "haumai"]
+      }
+    ],
     "relatedIds": ["gurmukh", "haumai"]
   },
   {
@@ -192,6 +307,22 @@
       "associatedWith": ["Kabir Ji", "Guru Nanak Dev Ji", "Bhagat Ravidas Ji"],
       "note": "A pan-Bhakti practice-word; Kabir ji's 'simran' and Guru Nanak's 'Naam simran' describe the same discipline inherited from the broader medieval devotional movement."
     },
+    "usageInContext": [
+      {
+        "note": "Almost always appears paired with 'Naam' rather than standing alone — the two words describe a single practice (remembering the Name) from two angles: 'Naam' names what is remembered, 'Simran' names the act of remembering.",
+        "source": "recurring \"Naam simran\" phrase pattern",
+        "shabdarthHere": "remembrance, recollection",
+        "bhavarth": "the active, ongoing discipline side of the Naam/Simran pair, rather than a one-time event",
+        "relatesTo": ["naam"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Frames Simran as sustained inner awareness rather than a count of repetitions — the value is in the quality of attention, not the number of times a word is said.",
+        "note": "General, publicly-known position — confirm exact wording against his lectures before quoting it as his."
+      }
+    ],
     "relatedIds": ["naam", "bhagti"]
   },
   {
@@ -212,6 +343,15 @@
       "associatedWith": ["Kabir Ji", "Bhagat Ravidas Ji", "Bhagat Namdev Ji", "Guru Arjan Dev Ji"],
       "note": "One of the clearest examples of a word whose meaning should be read through its Bhakti-movement origin rather than translated as a purely Punjabi/Sikh term."
     },
+    "usageInContext": [
+      {
+        "note": "Carries a caste-critical edge specifically in the Bhagat Bani of Ravidas ji and Namdev ji — both from communities excluded from temple worship — so 'bhagti' in their lines often implicitly asserts direct access to the Divine without priestly or caste intermediaries, a nuance lost if the word is read only as generic 'devotion.'",
+        "source": "Bhagat Bani (Ravidas Ji, Namdev Ji) within Guru Granth Sahib",
+        "shabdarthHere": "devotion",
+        "bhavarth": "direct, unmediated access to the Divine — pointed, in these authors' mouths, against caste-based religious exclusion",
+        "relatesTo": ["simran"]
+      }
+    ],
     "relatedIds": ["simran"]
   },
   {
@@ -232,6 +372,15 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Guru Amar Das Ji"],
       "note": "Institutionalized in Sikh practice (congregational worship), but the underlying word and the value placed on 'holy company' are shared with the wider Bhakti movement."
     },
+    "usageInContext": [
+      {
+        "note": "Regularly appears alongside Seva and Langar as one of a working trio — Sangat is who gathers, Seva is what is done, Langar is the meal shared — so isolating the word from that trio loses its institutional, practical meaning.",
+        "source": "recurring pattern in Guru Nanak Dev Ji's and Guru Amar Das Ji's institution-building",
+        "shabdarthHere": "congregation, company",
+        "bhavarth": "one part of a practical trio (Sangat–Seva–Langar), not a purely devotional abstraction",
+        "relatesTo": ["seva", "langar"]
+      }
+    ],
     "relatedIds": ["kirtan", "langar"]
   },
   {
@@ -255,6 +404,23 @@
       "associatedWith": ["Guru Nanak Dev Ji"],
       "note": "The clearest example of a word reaching back to Vedic/Upanishadic sound-symbolism (Om) rather than to Punjabi or Persian roots — its 'old times' context is classical Sanskrit cosmology."
     },
+    "usageInContext": [
+      {
+        "note": "Opens the entire Guru Granth Sahib and is followed immediately by a chain of further attributes (Sat Naam, Karta Purakh, Nirbhau, Nirvair, Akal Murat, Ajooni, Saibhang, Gur Prasad) — every later Mool Mantar term should be read as unpacking this opening numeral-symbol, not as separate from it.",
+        "source": "Mool Mantar",
+        "pankti": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+        "shabdarthHere": "One, expressed as Onkar",
+        "bhavarth": "the root statement that every following attribute in the Mool Mantar explains or defends",
+        "relatesTo": ["nirankar"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Reads the numeral 'Ik' as a deliberate, argued assertion of strict oneness — a doctrinal claim against polytheistic and dualistic readings current at the time, not a decorative flourish.",
+        "note": "General, publicly-known position, broadly shared across reformist Sikh commentary — confirm his specific wording before quoting it as his."
+      }
+    ],
     "relatedIds": ["nirankar"]
   },
   {
@@ -275,6 +441,21 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Guru Arjan Dev Ji"],
       "note": "A textbook case for why etymology must be checked per-occurrence rather than assumed from a single 'Punjabi meaning' — the same word carries two unrelated histories."
     },
+    "usageInContext": [
+      {
+        "note": "The surrounding grammar is the tell: when 'karam' is spoken of as something bestowed, given, or shown by the Guru/God (verbs like 'kita', 'dita', 'hoya'), it is almost always the Persian/Arabic 'grace' sense; when it is spoken of as something a person does or accumulates, it is the Sanskrit 'action' sense — the same spelling, resolved only by what verb is acting on it.",
+        "source": "general grammatical pattern across Guru Granth Sahib",
+        "shabdarthHere": "grace or action, depending on the surrounding verb",
+        "bhavarth": "a single Gurmukhi spelling silently carrying two unrelated histories, disambiguated only by its sentence, not by the word alone"
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Consistent with his broader method of checking each Gurbani word against its own recurring usage, would treat 'karam' as requiring occurrence-by-occurrence disambiguation between its grace-sense and action-sense rather than one fixed translation.",
+        "note": "This is an inference from his general interpretive method, not a specific statement about this word — confirm before attributing it to him directly."
+      }
+    ],
     "relatedIds": ["hukam"]
   },
   {
@@ -295,6 +476,22 @@
       "associatedWith": ["Kabir Ji", "Guru Nanak Dev Ji"],
       "note": "Best read against classical Vedantic philosophy, since that is the tradition that gives the term its force before Kabir or Guru Nanak ever used it."
     },
+    "usageInContext": [
+      {
+        "note": "Gurbani generally does not use 'Maya' to condemn the material world itself, but the attachment/forgetting it produces — the word's relational partner is almost always Haumai (the ego that clings) rather than the objects of the world themselves, which is why householders, not only renunciates, are addressed as capable of living beyond Maya.",
+        "source": "recurring Maya/Haumai pairing across Guru Granth Sahib",
+        "shabdarthHere": "illusion, the enchanting/veiling power",
+        "bhavarth": "the clinging/forgetting it produces in the mind, not the material world as such",
+        "relatesTo": ["haumai"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Reads 'Maya' as attachment and self-deception rather than a condemnation of worldly life itself, consistent with Sikhi's general endorsement of the householder path (grihasti) over renunciation.",
+        "note": "General, publicly-known position, broadly shared across mainstream Sikh commentary — confirm his specific wording before quoting it as his."
+      }
+    ],
     "relatedIds": ["haumai"]
   },
   {
@@ -318,6 +515,15 @@
       "associatedWith": ["Guru Nanak Dev Ji"],
       "note": "One of the few core terms that is a home-grown Gurbani compound rather than a direct Sanskrit or Persian loan, though it parallels the older Sanskrit concept of ahamkara."
     },
+    "usageInContext": [
+      {
+        "note": "Named as what is dissolved by grasping Hukam (Japji Sahib Pauri 1), what Manmukh is defined by, and what the Panj Chor exploit — the same word functions as the hinge connecting several other entries in this dictionary rather than standing as an isolated fault.",
+        "source": "recurring role across Guru Granth Sahib",
+        "shabdarthHere": "egotism, the doubled 'I-me'",
+        "bhavarth": "a hinge-concept, defined by what dissolves it (Hukam) and what it produces (Manmukh-ness, vulnerability to the Panj Chor)",
+        "relatesTo": ["hukam", "manmukh", "panj-chor"]
+      }
+    ],
     "relatedIds": ["manmukh", "maya"]
   },
   {
@@ -338,6 +544,22 @@
       "associatedWith": ["Kabir Ji", "Nath yogic tradition", "Guru Nanak Dev Ji"],
       "note": "Understanding 'Sehaj' benefits from knowing the Nath/Sahajiya background Kabir was answering, not just the later Sikh sense of the word."
     },
+    "usageInContext": [
+      {
+        "note": "Where Nath-yogic usage ties Sahaja to a technique attained through withdrawal and yogic discipline, Gurbani's usage relocates it to ordinary lived life sustained by Naam-simran — the same word, but its route to attainment is relationally redefined against the Nath source it came from.",
+        "source": "contrast between Nath-yogic usage and Gurbani usage",
+        "shabdarthHere": "innate balance, natural poise",
+        "bhavarth": "attainable through remembrance in ordinary/householder life, not only through yogic technique or renunciation",
+        "relatesTo": ["anhad", "sunn"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Frames Sehaj as a steady inner poise reachable within ordinary householder life, in line with Sikhi's general position against renunciation as a requirement for realization.",
+        "note": "General, publicly-known position, broadly shared across mainstream Sikh commentary — confirm his specific wording before quoting it as his."
+      }
+    ],
     "relatedIds": ["anhad", "sunn"]
   },
   {
@@ -361,6 +583,15 @@
       "associatedWith": ["Kabir Ji", "Nath yogic tradition", "Guru Nanak Dev Ji"],
       "note": "Its full meaning is only visible against the yogic anāhata-nāda concept it comes from."
     },
+    "usageInContext": [
+      {
+        "note": "Usually paired with 'Shabad' (as 'Anhad Shabad') — the unstruck sound is specifically identified with the Guru's Word rather than left as a generic mystical experience, tying the term back to a word this dictionary already covers.",
+        "source": "recurring \"Anhad Shabad\" phrase pattern",
+        "shabdarthHere": "unstruck (sound)",
+        "bhavarth": "the constant, self-existing presence of the Word, described through the image of a sound with no physical cause",
+        "relatesTo": ["shabad", "sehaj"]
+      }
+    ],
     "relatedIds": ["sehaj", "shabad"]
   },
   {
@@ -384,6 +615,15 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Guru Gobind Singh Ji"],
       "note": "Its 'old-times' resonance goes back to Vedic mythology; the later Khalsa initiation sense (1699) is a distinct, additional historical layer on top of that older meaning."
     },
+    "usageInContext": [
+      {
+        "note": "The word carries two layers that must be told apart by date and context: in Gurbani text itself it is almost always the Guru's Word/Naam described metaphorically as nectar; in post-1699 Khalsa usage it additionally names the specific initiation liquid — the earlier metaphorical sense does not disappear, but a second, ritual-specific sense is layered on top of it.",
+        "source": "contrast between Gurbani-era usage and post-1699 Khalsa usage",
+        "shabdarthHere": "deathless nectar",
+        "bhavarth": "primarily a metaphor for the Word's life-giving effect; additionally, after 1699, a specific initiation rite",
+        "relatesTo": ["naam", "khalsa"]
+      }
+    ],
     "relatedIds": ["naam"]
   },
   {
@@ -407,6 +647,15 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Guru Arjan Dev Ji"],
       "note": "Each of the five component words can itself be looked up as a separate old Sanskrit ethical term; the group-metaphor of 'thieves' is the Gurbani framing layered on top."
     },
+    "usageInContext": [
+      {
+        "note": "The 'thieves' image only works in relation to a household they are robbing — that household is Haumai's domain; the metaphor's force comes from reading Panj Chor and Haumai together, not from the five vices as an abstract ethical list.",
+        "source": "recurring imagery across Guru Granth Sahib",
+        "shabdarthHere": "the Five Thieves",
+        "bhavarth": "what Haumai leaves vulnerable to being robbed, rather than five independent moral failings",
+        "relatesTo": ["haumai"]
+      }
+    ],
     "relatedIds": ["haumai"]
   },
   {
@@ -427,6 +676,21 @@
       "associatedWith": ["Guru Gobind Singh Ji"],
       "note": "A precise example of Mughal-Persian court vocabulary being repurposed for a Sikh institutional concept, in the same way 'hukam' was repurposed a century earlier by Guru Nanak."
     },
+    "usageInContext": [
+      {
+        "note": "Occurrences of the root sense 'khalis' (pure/unmixed) before 1699 do not yet carry the later institutional meaning of a formally initiated collective — reading an early use of the plain word as if it already meant \"the Khalsa panth\" would be an anachronism; the institutional sense is a specific historical addition on top of the older adjective.",
+        "source": "contrast between pre-1699 and post-1699 usage",
+        "shabdarthHere": "pure, unmixed",
+        "bhavarth": "the institutional sense (a directly-Guru-owned collective) is a 1699 addition, not present in earlier occurrences of the plain word"
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Emphasizes 'Khalsa' as naming a direct, unmediated relationship with the Guru/Akal Purakh — an inner sovereignty and discipline — rather than reducing it to external identity markers alone.",
+        "note": "General, publicly-known position — confirm exact wording against his lectures before quoting it as his."
+      }
+    ],
     "relatedIds": ["hukam"]
   },
   {
@@ -447,6 +711,15 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Guru Amar Das Ji"],
       "note": "Institutionalized in practice (langar, communal labor) but the word itself is common Sanskrit-Bhakti vocabulary, not a coinage."
     },
+    "usageInContext": [
+      {
+        "note": "Paired with Satguru ('Satgur ki seva') as much as with Sangat/Langar — the word covers both service directed at the Guru/teaching and service directed at the community, and which relationship is meant depends on what noun 'seva' is attached to in the line.",
+        "source": "recurring phrase patterns across Guru Granth Sahib",
+        "shabdarthHere": "service",
+        "bhavarth": "either devotion-in-action toward the Guru, or practical service to the community — decided by its paired noun, not the word alone",
+        "relatesTo": ["satguru", "sangat", "langar"]
+      }
+    ],
     "relatedIds": ["langar", "sangat"]
   },
   {
@@ -467,6 +740,15 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Guru Amar Das Ji", "Sufi hospice tradition"],
       "note": "A strong example of a term whose 'old times' context is Sufi Persian hospitality practice, not Punjabi or Sanskrit."
     },
+    "usageInContext": [
+      {
+        "note": "The Sufi-hospice source institution served travelers and the poor generally; Sikhi's specific addition, when Guru Amar Das Ji institutionalized 'pehle pangat, phir sangat' (first sit together to eat, then the congregation), was making shared eating a precondition for the caste-mixed Sangat that followed — the word's Sikh meaning is bound to that sequencing, not just to charitable feeding.",
+        "source": "Guru Amar Das Ji's institutionalization of Sangat–Langar practice",
+        "shabdarthHere": "a free kitchen/hospice",
+        "bhavarth": "a precondition for caste-equal congregation, not only an act of charity",
+        "relatesTo": ["sangat", "seva"]
+      }
+    ],
     "relatedIds": ["seva", "sangat"]
   },
   {
@@ -487,6 +769,15 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Guru Arjan Dev Ji"],
       "note": "Shares its root and general practice with the broader pan-Indian Bhakti devotional-singing tradition."
     },
+    "usageInContext": [
+      {
+        "note": "Distinguished from Paath by mode, not content — the same Shabad can be recited as Paath or sung as Kirtan; the raag heading placed over a shabad in Guru Granth Sahib signals that Kirtan, not silent reading, is its intended mode.",
+        "source": "raag-heading structure of Guru Granth Sahib",
+        "shabdarthHere": "sung praise",
+        "bhavarth": "a mode of engaging a Shabad (singing to raag) rather than a separate category of content from Paath",
+        "relatesTo": ["shabad", "paath"]
+      }
+    ],
     "relatedIds": ["shabad", "sangat"]
   },
   {
@@ -507,6 +798,22 @@
       "associatedWith": ["Sikh liturgical tradition"],
       "note": "Not a specialized coinage — its plain meaning ('reading/recitation') is unchanged from general Sanskrit-derived usage."
     },
+    "usageInContext": [
+      {
+        "note": "The word by itself is neutral about whether the reading is understood; whether a given Paath is 'arth sahit' (with meaning/understanding) or purely mechanical recitation is added by a qualifying word, not by 'Paath' alone.",
+        "source": "general liturgical usage",
+        "shabdarthHere": "reading, recitation",
+        "bhavarth": "neutral by itself — understanding vs. rote repetition is a distinction added by other words, not inherent to 'paath'",
+        "relatesTo": ["kirtan"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy) / Missionary College tradition",
+        "view": "Strongly emphasizes 'arth sahit paath' — reading with comprehension of meaning — over mechanical or purely ritual recitation, a position broadly associated with the Sikh Missionary College reform tradition.",
+        "note": "General, widely-documented position of this reform tradition — confirm his specific wording before quoting it as his personally."
+      }
+    ],
     "relatedIds": ["kirtan"]
   },
   {
@@ -527,6 +834,15 @@
       "associatedWith": ["Guru Nanak Dev Ji"],
       "note": "Best understood alongside the older Sanskrit aesthetic theory of wonder (adbhuta-rasa) that supplies its emotional register."
     },
+    "usageInContext": [
+      {
+        "note": "In Japji Sahib, the word is repeated in a cascading list ('Vismaad naad, vismaad ved...') rather than defined once — its meaning accumulates through repetition across many different objects of wonder (sound, scriptures, forms, colours, creatures), so no single line carries its full sense alone.",
+        "source": "Japji Sahib, Pauri 16 (the Vismaad pauri)",
+        "shabdarthHere": "wonder, astonishment",
+        "bhavarth": "a sense built cumulatively across a whole list of wondered-at things, not fixed by any one occurrence",
+        "relatesTo": ["ik-onkar"]
+      }
+    ],
     "relatedIds": ["ik-onkar"]
   },
   {
@@ -547,6 +863,15 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Nath yogic tradition"],
       "note": "Read together with 'Sehaj' and 'Anhad' — all three are part of the same inherited Nath-yogic cosmological vocabulary describing pre-creation and meditative states."
     },
+    "usageInContext": [
+      {
+        "note": "Appears in Gurbani both as a cosmological description (the pre-creation state) and as a meditative goal ('Sunn Samadhi'); the same word names both the beginning of time and a state a person can inwardly return to, and which sense applies depends on whether the surrounding lines are cosmological narrative or address to the practitioner.",
+        "source": "recurring cosmological/meditative dual usage across Guru Granth Sahib",
+        "shabdarthHere": "void, emptiness",
+        "bhavarth": "either the pre-creation cosmological state, or an inwardly-accessible meditative absorption — decided by whether the passage is narrating origins or addressing the seeker",
+        "relatesTo": ["sehaj", "anhad"]
+      }
+    ],
     "relatedIds": ["sehaj", "anhad"]
   },
   {
@@ -590,6 +915,22 @@
       "associatedWith": ["Guru Nanak Dev Ji", "Kabir Ji", "pan-Indian teacher tradition"],
       "note": "Predates Sikhi by many centuries; Sikhi's distinctive contribution is investing the title in a line of ten human Gurus and then in the scripture itself (Guru Granth Sahib), not the word's origin."
     },
+    "usageInContext": [
+      {
+        "note": "The referent shifts across the ten Gurus, the Shabad/teaching itself, and finally the scripture (Guru Granth Sahib) — the same word tracks a historical transfer of authority from person to text, so which referent is meant depends on the period and genre of the passage using it.",
+        "source": "transfer of Guruship across Sikh history (culminating 1708)",
+        "shabdarthHere": "teacher",
+        "bhavarth": "traces a historical transfer of authority (person → teaching → text), not one fixed referent",
+        "relatesTo": ["satguru", "waheguru"]
+      }
+    ],
+    "interpretations": [
+      {
+        "source": "Dharam Singh (Sach Khoj Academy)",
+        "view": "Distinguishes devotion to the Guru's wisdom/Shabad from veneration of a person's individual personality, cautioning against readings that centre the Gurus' historical persons over the teaching itself.",
+        "note": "General, publicly-known position — confirm exact wording against his lectures before quoting it as his."
+      }
+    ],
     "relatedIds": ["satguru", "waheguru"]
   },
   {
@@ -610,6 +951,15 @@
       "associatedWith": ["Baba Farid Ji", "Sufi tradition"],
       "note": "The clearest single example in this dictionary of the principle that a word's source-language tradition (here, Arabic/Sufi) determines its correct reading, distinct from the Sanskrit-rooted terms used elsewhere in Guru Granth Sahib."
     },
+    "usageInContext": [
+      {
+        "note": "Sits in a plainer, more intimate register than 'Waheguru' or 'Nirankar' — Baba Farid Ji's shaloks use 'Rabb' the way ordinary Punjabi Sufi speech would, addressing God as one addresses a near, personal Sustainer, in contrast to the more formal Sanskritic register of Guru Nanak's Mool Mantar attributes describing what God is not.",
+        "source": "contrast between Baba Farid Ji's shaloks and the Mool Mantar's register",
+        "shabdarthHere": "Lord, Sustainer",
+        "bhavarth": "an intimate, everyday address, in a different register from the Sanskritic philosophical vocabulary used elsewhere in the same scripture",
+        "relatesTo": ["nirankar", "khalsa"]
+      }
+    ],
     "relatedIds": ["khalsa"]
   }
 ]

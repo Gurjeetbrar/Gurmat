@@ -164,6 +164,95 @@
       node.querySelector(".context-note").textContent = entry.context.note || "";
     }
 
+    var usageBlock = node.querySelector(".usage-block");
+    var usageList = node.querySelector(".usage-list");
+    var usageItems = entry.usageInContext || [];
+    if (usageItems.length) {
+      usageItems.forEach(function (u) {
+        var item = document.createElement("div");
+        item.className = "usage-item";
+
+        if (u.pankti) {
+          var pankti = document.createElement("p");
+          pankti.className = "usage-pankti";
+          pankti.textContent = u.pankti;
+          item.appendChild(pankti);
+        }
+
+        if (u.source) {
+          var source = document.createElement("div");
+          source.className = "usage-source";
+          source.textContent = u.source;
+          item.appendChild(source);
+        }
+
+        if (u.shabdarthHere) {
+          var shabdarth = document.createElement("p");
+          shabdarth.innerHTML = "<b>Shabdarth (literal, here): </b>";
+          shabdarth.appendChild(document.createTextNode(u.shabdarthHere));
+          item.appendChild(shabdarth);
+        }
+
+        if (u.bhavarth) {
+          var bhavarth = document.createElement("p");
+          bhavarth.innerHTML = "<b>Bhavarth (deeper sense): </b>";
+          bhavarth.appendChild(document.createTextNode(u.bhavarth));
+          item.appendChild(bhavarth);
+        }
+
+        if (u.note) {
+          var note = document.createElement("p");
+          note.className = "usage-note";
+          note.textContent = u.note;
+          item.appendChild(note);
+        }
+
+        if (u.relatesTo && u.relatesTo.length) {
+          var relWrap = document.createElement("div");
+          relWrap.className = "usage-related-chips";
+          u.relatesTo.forEach(function (rid) {
+            var rel = byId[rid];
+            if (rel) relWrap.appendChild(chipFor(rid, rel.transliteration));
+          });
+          item.appendChild(relWrap);
+        }
+
+        usageList.appendChild(item);
+      });
+    } else {
+      usageBlock.hidden = true;
+    }
+
+    var interpBlock = node.querySelector(".interpretations-block");
+    var interpList = node.querySelector(".interpretations-list");
+    var interpItems = entry.interpretations || [];
+    if (interpItems.length) {
+      interpItems.forEach(function (i) {
+        var item = document.createElement("div");
+        item.className = "interpretation-item";
+
+        var source = document.createElement("div");
+        source.className = "interp-source";
+        source.textContent = i.source || "";
+        item.appendChild(source);
+
+        var view = document.createElement("p");
+        view.textContent = i.view || "";
+        item.appendChild(view);
+
+        if (i.note) {
+          var note = document.createElement("p");
+          note.className = "interp-caveat";
+          note.textContent = i.note;
+          item.appendChild(note);
+        }
+
+        interpList.appendChild(item);
+      });
+    } else {
+      interpBlock.hidden = true;
+    }
+
     var relatedWrap = node.querySelector(".related-chips");
     var relatedBlock = node.querySelector(".related-block");
     var relatedIds = entry.relatedIds || [];

@@ -219,6 +219,58 @@ body {
   gap: 6px;
 }
 
+.usage-item, .interpretation-item {
+  background: var(--accent-soft);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+
+.usage-item:last-child, .interpretation-item:last-child {
+  margin-bottom: 0;
+}
+
+.usage-item p, .interpretation-item p {
+  font-size: 0.88rem;
+  margin: 0 0 6px;
+}
+
+.usage-item p:last-child, .interpretation-item p:last-child {
+  margin-bottom: 0;
+}
+
+.usage-pankti {
+  font-size: 1.05rem !important;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.usage-source, .interp-source {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+
+.usage-note {
+  font-style: italic;
+  color: var(--ink-soft) !important;
+}
+
+.interp-caveat {
+  font-size: 0.78rem !important;
+  font-style: italic;
+  color: var(--ink-soft) !important;
+}
+
+.usage-related-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
 .site-footer {
   max-width: 720px;
   margin: 0 auto;
