@@ -33,6 +33,11 @@
         <p class="meaning"></p>
       </section>
 
+      <section class="block grammar-block">
+        <h3>Grammar (Gurbani Viakaran)</h3>
+        <dl class="grammar-list"></dl>
+      </section>
+
       <section class="block breakdown-block">
         <h3>Breakdown</h3>
         <ul class="breakdown-list"></ul>
@@ -42,6 +47,8 @@
         <h3>Origin / Root</h3>
         <p class="etym-root"></p>
         <p class="etym-note"></p>
+        <div class="origin-candidates"></div>
+        <p class="origin-gap"></p>
       </section>
 
       <section class="block context-block">
@@ -50,9 +57,26 @@
         <p class="context-note"></p>
       </section>
 
+      <section class="block senses-block">
+        <h3>Attested Senses</h3>
+        <div class="senses-list"></div>
+      </section>
+
       <section class="block usage-block">
         <h3>Contextual / Relational Meaning</h3>
         <div class="usage-list"></div>
+      </section>
+
+      <section class="block cross-ling-block">
+        <h3>Cross-Linguistic Profile</h3>
+        <p class="cross-ling-authors"></p>
+        <p class="cross-ling-note"></p>
+      </section>
+
+      <section class="block operational-block">
+        <h3><span class="layer-tag layer-interpretive">Interpretive</span> Operational Reading</h3>
+        <p class="operational-reading"></p>
+        <p class="operational-grounded"></p>
       </section>
 
       <section class="block interpretations-block">
@@ -64,6 +88,10 @@
         <h3>Related terms</h3>
         <div class="related-chips"></div>
       </section>
+
+      <div class="entry-footer">
+        <span class="overall-confidence"></span>
+      </div>
     </article>
   </template>
 
@@ -72,7 +100,12 @@
     (Sanskrit, Persian/Arabic, Sant Bhasha, Nath-yogic vocabulary) and should be cross-checked against primary
     sources (Mahan Kosh, Guru Granth Kosh, and the bani itself) for scriptural precision. "Scholar &amp; Parchar
     Perspectives" entries are general, unverified paraphrases of a teacher's broadly known positions, not
-    verbatim quotations — confirm specific wording against their own lectures/writings before citing them.</p>
+    verbatim quotations — confirm specific wording against their own lectures/writings before citing them.
+    Entries with a Grammar/Attested Senses/Operational Reading section were built without live access to a
+    Gurbani corpus (SikhiToTheMax, SriGranth, BaniDB): a verse marked <strong>unverified</strong> was recalled
+    from memory, not looked up, and any field left blank means it could not be recalled with confidence rather
+    than being invented. "Operational Reading" sections are explicitly one interpretive lens, not the attested
+    meaning — treat them accordingly.</p>
   </footer>
 
   <script src="js/app.js"></script>

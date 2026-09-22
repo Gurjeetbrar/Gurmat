@@ -271,6 +271,184 @@ body {
   margin-top: 6px;
 }
 
+/* --- Gurmat Viakaran extensions --- */
+
+.grammar-list {
+  margin: 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 4px 12px;
+}
+
+.grammar-list dt {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.grammar-list dd {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.confidence-badge, .status-badge, .layer-tag, .verified-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 1px 7px;
+  border-radius: 999px;
+  margin-left: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.confidence-high { background: #d9f0dd; color: #1e6b30; }
+.confidence-medium { background: #fbeacb; color: #8a5a00; }
+.confidence-low { background: #f6d9d9; color: #9c2b2b; }
+.confidence-unknown { background: var(--border); color: var(--ink-soft); }
+
+@media (prefers-color-scheme: dark) {
+  .confidence-high { background: #163b21; color: #8fe0a3; }
+  .confidence-medium { background: #4a3712; color: #f0c674; }
+  .confidence-low { background: #4a2020; color: #f0a3a3; }
+}
+
+.status-badge { background: var(--border); color: var(--ink); }
+.status-attested { background: #d9e8f0; color: #1e5a75; }
+.status-disputed { background: #fbeacb; color: #8a5a00; }
+.status-probable { background: #e6e0f5; color: #5a3d9c; }
+.status-unknown { background: var(--border); color: var(--ink-soft); }
+
+@media (prefers-color-scheme: dark) {
+  .status-attested { background: #17384a; color: #8fc9e0; }
+  .status-disputed { background: #4a3712; color: #f0c674; }
+  .status-probable { background: #332a4a; color: #c4aef0; }
+}
+
+.layer-tag { background: var(--accent-soft); color: var(--accent); }
+.layer-interpretive { background: #e6e0f5; color: #5a3d9c; }
+.layer-attested { background: #d9e8f0; color: #1e5a75; }
+
+@media (prefers-color-scheme: dark) {
+  .layer-interpretive { background: #332a4a; color: #c4aef0; }
+  .layer-attested { background: #17384a; color: #8fc9e0; }
+}
+
+.verified-true { background: #d9f0dd; color: #1e6b30; }
+.verified-false { background: var(--border); color: var(--ink-soft); }
+
+@media (prefers-color-scheme: dark) {
+  .verified-true { background: #163b21; color: #8fe0a3; }
+}
+
+.origin-status-line {
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+}
+
+.origin-candidate {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+
+.origin-candidate:last-child { margin-bottom: 0; }
+
+.origin-candidate-head {
+  font-weight: 600;
+  font-size: 0.88rem;
+  margin-bottom: 4px;
+}
+
+.origin-candidate p {
+  font-size: 0.85rem;
+  margin: 0 0 4px;
+}
+
+.origin-candidate p:last-child { margin-bottom: 0; }
+
+.origin-components {
+  font-style: italic;
+}
+
+.origin-authority, .evidence-source {
+  color: var(--ink-soft);
+  font-size: 0.78rem !important;
+}
+
+.origin-gap {
+  margin-top: 8px;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+
+.sense-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+
+.sense-item:last-child { margin-bottom: 0; }
+
+.sense-head {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+
+.sense-meaning {
+  font-weight: 600;
+  font-size: 0.95rem !important;
+}
+
+.sense-item p {
+  font-size: 0.9rem;
+  margin: 0 0 6px;
+}
+
+.textual-evidence {
+  background: var(--accent-soft);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
+
+.evidence-translit {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.evidence-no-verse {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.evidence-meta {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+
+.entry-footer {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+.sources-note {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
 .site-footer {
   max-width: 720px;
   margin: 0 auto;

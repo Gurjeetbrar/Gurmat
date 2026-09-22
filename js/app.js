@@ -109,6 +109,22 @@
       });
   }
 
+  function confidenceBadge(level) {
+    var span = document.createElement("span");
+    var lvl = (level || "unknown").toLowerCase();
+    span.className = "confidence-badge confidence-" + lvl;
+    span.textContent = lvl.charAt(0).toUpperCase() + lvl.slice(1) + " confidence";
+    return span;
+  }
+
+  function statusBadge(status) {
+    var span = document.createElement("span");
+    var s = (status || "unknown").toLowerCase();
+    span.className = "status-badge status-" + s;
+    span.textContent = s.charAt(0).toUpperCase() + s.slice(1);
+    return span;
+  }
+
   function chipFor(id, label) {
     var chip = document.createElement("button");
     chip.type = "button";
@@ -130,6 +146,34 @@
     node.querySelector(".pos").textContent = entry.partOfSpeech || "";
 
     node.querySelector(".meaning").textContent = entry.meaning;
+
+    var grammarBlock = node.querySelector(".grammar-block");
+    var grammarList = node.querySelector(".grammar-list");
+    if (entry.grammar) {
+      var g = entry.grammar;
+      var gFields = [
+        ["Part of speech", g.partOfSpeech],
+        ["Lemma vs. inflected form", g.lemmaVsInflected],
+        ["Lagaan-matra (vowel-ending) note", g.lagaanMatraNote],
+        ["Sentence function", g.sentenceFunction],
+        ["Grammatical authority", g.authority]
+      ];
+      var anyGrammar = false;
+      gFields.forEach(function (pair) {
+        if (pair[1]) {
+          anyGrammar = true;
+          var dt = document.createElement("dt");
+          dt.textContent = pair[0];
+          var dd = document.createElement("dd");
+          dd.textContent = pair[1];
+          grammarList.appendChild(dt);
+          grammarList.appendChild(dd);
+        }
+      });
+      if (!anyGrammar) grammarBlock.hidden = true;
+    } else {
+      grammarBlock.hidden = true;
+    }
 
     var breakdownBlock = node.querySelector(".breakdown-block");
     var breakdownList = node.querySelector(".breakdown-list");
@@ -156,12 +200,168 @@
       node.querySelector(".etym-note").textContent = entry.etymology.note || "";
     }
 
+    var originCandidatesWrap = node.querySelector(".origin-candidates");
+    var originGapEl = node.querySelector(".origin-gap");
+    if (entry.originAnalysis) {
+      var oa = entry.originAnalysis;
+      if (oa.status) {
+        var statusLine = document.createElement("div");
+        statusLine.className = "origin-status-line";
+        statusLine.appendChild(document.createTextNode("Origin status: "));
+        statusLine.appendChild(statusBadge(oa.status));
+        originCandidatesWrap.appendChild(statusLine);
+      }
+      (oa.candidates || []).forEach(function (c) {
+        var card = document.createElement("div");
+        card.className = "origin-candidate";
+
+        var head = document.createElement("div");
+        head.className = "origin-candidate-head";
+        head.appendChild(document.createTextNode((c.sourceLanguage || "") + " — " + (c.originalScriptForm || "")));
+        if (c.confidence) head.appendChild(confidenceBadge(c.confidence));
+        card.appendChild(head);
+
+        if (c.components && c.components.length) {
+          var comp = document.createElement("p");
+          comp.className = "origin-components";
+          comp.textContent = c.components.join(" + ");
+          card.appendChild(comp);
+        }
+        if (c.rootMeaning) {
+          var rm = document.createElement("p");
+          rm.textContent = c.rootMeaning;
+          card.appendChild(rm);
+        }
+        if (c.authority) {
+          var auth = document.createElement("p");
+          auth.className = "origin-authority";
+          auth.textContent = "Authority: " + c.authority;
+          card.appendChild(auth);
+        }
+        originCandidatesWrap.appendChild(card);
+      });
+      originGapEl.textContent = oa.rootVsUsageGap || "";
+    }
+
     if (entry.context) {
       var used = (entry.context.associatedWith || []).join(", ");
       node.querySelector(".context-used").textContent = used
         ? "Associated with: " + used
         : "";
       node.querySelector(".context-note").textContent = entry.context.note || "";
+    }
+
+    var sensesBlock = node.querySelector(".senses-block");
+    var sensesList = node.querySelector(".senses-list");
+    var attestedSenses = entry.attestedSenses || [];
+    if (attestedSenses.length) {
+      attestedSenses.forEach(function (s) {
+        var item = document.createElement("div");
+        item.className = "sense-item";
+
+        var head = document.createElement("div");
+        head.className = "sense-head";
+        head.appendChild(document.createTextNode(s.register ? s.register + " sense" : "Sense"));
+        if (s.confidence) head.appendChild(confidenceBadge(s.confidence));
+        item.appendChild(head);
+
+        var meaning = document.createElement("p");
+        meaning.className = "sense-meaning";
+        meaning.textContent = s.meaning || "";
+        item.appendChild(meaning);
+
+        if (s.usageNote) {
+          var note = document.createElement("p");
+          note.textContent = s.usageNote;
+          item.appendChild(note);
+        }
+
+        (s.textualEvidence || []).forEach(function (te) {
+          var ev = document.createElement("div");
+          ev.className = "textual-evidence";
+
+          if (te.verseGurmukhi) {
+            var verse = document.createElement("p");
+            verse.className = "usage-pankti";
+            verse.textContent = te.verseGurmukhi;
+            ev.appendChild(verse);
+            if (te.verseTransliteration) {
+              var tl = document.createElement("p");
+              tl.className = "evidence-translit";
+              tl.textContent = te.verseTransliteration;
+              ev.appendChild(tl);
+            }
+          } else {
+            var noVerse = document.createElement("p");
+            noVerse.className = "evidence-no-verse";
+            noVerse.textContent = "No specific verse cited for this sense — see source note below.";
+            ev.appendChild(noVerse);
+          }
+
+          var metaBits = [];
+          if (te.author) metaBits.push(te.author);
+          if (te.raag) metaBits.push(te.raag);
+          if (te.ang) metaBits.push("Ang " + te.ang);
+          if (metaBits.length) {
+            var meta = document.createElement("div");
+            meta.className = "evidence-meta";
+            meta.textContent = metaBits.join(" · ");
+            ev.appendChild(meta);
+          }
+
+          var verifiedBadge = document.createElement("span");
+          verifiedBadge.className = "verified-badge " + (te.verified ? "verified-true" : "verified-false");
+          verifiedBadge.textContent = te.verified ? "Corpus-verified" : "Not independently verified";
+          ev.appendChild(verifiedBadge);
+
+          if (te.source) {
+            var src = document.createElement("p");
+            src.className = "evidence-source";
+            src.textContent = te.source;
+            ev.appendChild(src);
+          }
+
+          item.appendChild(ev);
+        });
+
+        sensesList.appendChild(item);
+      });
+    } else {
+      sensesBlock.hidden = true;
+    }
+
+    var crossLingBlock = node.querySelector(".cross-ling-block");
+    if (entry.crossLinguisticProfile) {
+      var clp = entry.crossLinguisticProfile;
+      var authors = (clp.authorsWhoUseIt || []).join(", ");
+      node.querySelector(".cross-ling-authors").textContent = authors
+        ? "Authors: " + authors
+        : "";
+      var an = clp.adaptationNote || {};
+      var noteEl = node.querySelector(".cross-ling-note");
+      noteEl.textContent = an.text || "";
+      if (an.confidence || an.layer) {
+        var tag = document.createElement("span");
+        tag.className = "layer-tag layer-" + (an.layer || "interpretive");
+        tag.textContent = (an.layer || "interpretive");
+        noteEl.appendChild(document.createTextNode(" "));
+        noteEl.appendChild(tag);
+        if (an.confidence) noteEl.appendChild(confidenceBadge(an.confidence));
+      }
+      if (!an.text && !authors) crossLingBlock.hidden = true;
+    } else {
+      crossLingBlock.hidden = true;
+    }
+
+    var operationalBlock = node.querySelector(".operational-block");
+    if (entry.operationalReading && entry.operationalReading.reading) {
+      var opr = entry.operationalReading;
+      node.querySelector(".operational-reading").textContent = opr.reading;
+      var groundedEl = node.querySelector(".operational-grounded");
+      groundedEl.textContent = opr.groundedIn ? "Grounded in: " + opr.groundedIn : "";
+      if (opr.confidence) groundedEl.appendChild(confidenceBadge(opr.confidence));
+    } else {
+      operationalBlock.hidden = true;
     }
 
     var usageBlock = node.querySelector(".usage-block");
@@ -265,6 +465,20 @@
       });
     } else {
       relatedBlock.hidden = true;
+    }
+
+    var overallConfEl = node.querySelector(".overall-confidence");
+    if (entry.overallConfidence) {
+      overallConfEl.appendChild(document.createTextNode("Overall confidence: "));
+      overallConfEl.appendChild(confidenceBadge(entry.overallConfidence));
+      if (entry.viakaranSources && entry.viakaranSources.length) {
+        var srcNote = document.createElement("span");
+        srcNote.className = "sources-note";
+        srcNote.textContent = " · Sources: " + entry.viakaranSources.join("; ");
+        overallConfEl.appendChild(srcNote);
+      }
+    } else {
+      overallConfEl.hidden = true;
     }
 
     return node;
