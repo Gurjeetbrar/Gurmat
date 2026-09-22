@@ -1,0 +1,368 @@
+[
+  {
+    "word": "ਗੁਰੁ",
+    "transliteration": "Gur / Guru",
+    "variant_spellings": ["ਗੁਰੁ (nominative)", "ਗੁਰ (oblique/compounding form)", "ਗੁਰਾ (vocative)"],
+    "grammar": {
+      "part_of_speech": "noun (masculine)",
+      "lemma_vs_inflected": "Dictionary/lemma form is ਗੁਰੂ (Guru). ਗੁਰ is the frequent oblique or compounding form used before another noun (e.g., ਗੁਰ ਪ੍ਰਸਾਦਿ, \"by the Guru's grace\"), while the aunkar-marked ਗੁਰੁ signals nominative case in careful Gurbani orthography.",
+      "lagaan_matra_note": "The final vowel sign (aunkar ੁ) tracks case: ਗੁਰੁ (with aunkar) generally functions as subject/nominative; ਗੁਰ (without aunkar) functions as an oblique form before a postposition or as the first member of a compound (ਗੁਰਮੁਖਿ, ਗੁਰਪ੍ਰਸਾਦਿ).",
+      "sentence_function": "Functions as subject, object, or first member of a compound depending on the case ending present; recurs in all these slots throughout SGGS.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran (grammatical framework for lagaan-matra case distinctions in SGGS)"
+    },
+    "senses": [
+      {
+        "attested_meaning": "A teacher; one who removes ignorance/darkness and gives spiritual instruction.",
+        "register": "devotional | relational",
+        "usage_note": "Used for a living human teacher in the ordinary sense, for the ten Sikh Gurus specifically, and increasingly through the text for the Shabad/Word itself as the real locus of teaching authority.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+            "verse_transliteration": "Ik Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akal Murat Ajooni Saibhang Gur Prasad",
+            "author": "Guru Nanak Dev Ji (Mahala 1)",
+            "raag": null,
+            "ang": 1,
+            "source": "Recalled from memory. Mool Mantar's fixed position at Ang 1 is essentially universal across standard (Damdami Bir) printings, but this was not independently re-verified against a live corpus this session.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "attested",
+      "candidates": [
+        {
+          "source_language": "Sanskrit",
+          "original_script_form": "गुरु (guru)",
+          "components": ["guru — a single root, not compositionally analyzable as gu+ru in standard Sanskrit grammar"],
+          "root_meaning": "\"heavy, weighty\" — by extension, one whose authority/knowledge carries weight",
+          "authority": "Monier-Williams Sanskrit-English Dictionary; Mahan Kosh (Bhai Kahn Singh Nabha), which also separately notes the popular 'gu' (darkness) + 'ru' (light) gloss as a later devotional folk etymology, not a Sanskrit grammatical fact",
+          "confidence": "high"
+        }
+      ],
+      "root_vs_usage_gap": "The Sanskrit root sense ('weighty, heavy [with authority]') is a general honorific for any teacher across Indian traditions. Gurbani usage narrows and elevates it into a specific theological category — the Guru as the necessary channel for Naam and liberation, and eventually the Shabad/scripture itself — a much narrower, more load-bearing sense than the general Sanskrit honorific."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji", "subsequent Gurus", "Kabir Ji", "Bhagat Ravidas Ji"],
+      "adaptation_note": {
+        "text": "Kabir ji and other Bhagats inherit the same pan-Indian Sanskrit honorific for 'teacher' already current in Bhakti and Nath-yogic circles before Guru Nanak. Gurbani's distinct contribution is institutionalizing the title across ten specific successors and finally the scripture itself, not coining the word.",
+        "layer": "interpretive",
+        "confidence": "medium"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "Structurally, 'Gur/Guru' names an external reference point outside the self-referential loop of Man/Haumai — a fixed point of address the practitioner can orient toward instead of the mind's own recursive self-tracking. The grammatical fact that the word shifts case (subject vs. oblique 'of/by the Guru') mirrors this: it is used both as an active agent and as a source one receives from, modeling a relationship rather than a self-generated state.",
+      "grounded_in": "the attested teacher/instruction sense above",
+      "confidence": "medium"
+    },
+    "see_also": ["satgur", "sabad", "haumai"],
+    "overall_confidence": "high",
+    "sources": [
+      "Mahan Kosh (Bhai Kahn Singh Nabha)",
+      "Prof. Sahib Singh, Gurbani Viakaran",
+      "Monier-Williams Sanskrit-English Dictionary",
+      "memory recall of Mool Mantar text — not independently corpus-verified this session"
+    ]
+  },
+  {
+    "word": "ਸਤਿਗੁਰੁ",
+    "transliteration": "Satgur",
+    "variant_spellings": ["ਸਤਿਗੁਰੁ (nominative)", "ਸਤਿਗੁਰ (oblique/compounding)", "ਸਤਿਗੁਰੂ (later/common spelling)"],
+    "grammar": {
+      "part_of_speech": "noun (masculine), compound (karmadharaya-type)",
+      "lemma_vs_inflected": "Lemma ਸਤਿਗੁਰੁ. The same nominative/oblique case pattern as Gur/Guru applies to its second member, so ਸਤਿਗੁਰ appears before postpositions or a second noun (ਸਤਿਗੁਰ ਕੀ ਸੇਵਾ — \"service of the Satguru\").",
+      "lagaan_matra_note": "Aunkar on the final syllable marks nominative case (ਸਤਿਗੁਰੁ); its absence marks oblique/possessive constructions — identical mechanism to Gur/Guru.",
+      "sentence_function": "Functions grammatically like Guru — subject, object, or first member of further compounds — with 'Sat' as a fixed, non-inflecting first member.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran"
+    },
+    "senses": [
+      {
+        "attested_meaning": "The True Guru/Teacher — used for God directly, for the Guru's realized inner state, and for the ten historical Gurus.",
+        "register": "devotional",
+        "usage_note": "Distinguishes a genuine, truth-grounded teacher from a false or self-appointed one.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": "ਅਨੰਦੁ ਭਇਆ ਮੇਰੀ ਮਾਏ ਸਤਿਗੁਰੂ ਮੈ ਪਾਇਆ ॥",
+            "verse_transliteration": "Anand bhaya meri mae Satguru mai paaiaa",
+            "author": "Guru Amar Das Ji (Mahala 3)",
+            "raag": "Raag Ramkali",
+            "ang": null,
+            "source": "Recalled from memory as the opening line of Anand Sahib — widely known, but exact Ang not independently verified this session.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "attested",
+      "candidates": [
+        {
+          "source_language": "Sanskrit",
+          "original_script_form": "सत्गुरु / सद्गुरु (sat-guru / sad-guru)",
+          "components": ["सत् (sat, \"true, existing\")", "गुरु (guru, \"teacher\")"],
+          "root_meaning": "a teacher who is [grounded in] truth/true being",
+          "authority": "Mahan Kosh; standard Sanskrit compounding rules",
+          "confidence": "high"
+        }
+      ],
+      "root_vs_usage_gap": "Grammatically transparent as 'true Guru' in both Sanskrit and Gurbani — one of the few terms in this batch with almost no gap between root and usage, though Gurbani sharpens 'true' to mean specifically God-realized/God-identical rather than merely honest."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji", "Guru Amar Das Ji", "Kabir Ji"],
+      "adaptation_note": {
+        "text": "Kabir ji's dohas use 'Satguru' for an inwardly realized teacher, sometimes explicitly distinguished from any physical/human teacher — a Sant-tradition usage that runs parallel to Guru Bani's own usage rather than being borrowed from it.",
+        "layer": "interpretive",
+        "confidence": "medium"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "The 'Sat' prefix functions as a verification-flag on the Gur-relationship: it marks the external reference point as non-illusory, guarding against the mind's own opinions being relabeled as guidance (a Haumai/Maya substitution).",
+      "grounded_in": "the attested 'true teacher, God-realized' sense above",
+      "confidence": "low"
+    },
+    "see_also": ["gur", "sabad", "sat"],
+    "overall_confidence": "high",
+    "sources": [
+      "Mahan Kosh",
+      "Prof. Sahib Singh, Gurbani Viakaran",
+      "memory recall of Anand Sahib opening — not independently corpus-verified this session"
+    ]
+  },
+  {
+    "word": "ਸਬਦੁ",
+    "transliteration": "Sabad",
+    "variant_spellings": ["ਸਬਦੁ (nominative)", "ਸਬਦਿ (instrumental/locative — \"through/by the Shabad\")", "ਸ਼ਬਦ (modern/Sanskritized spelling)"],
+    "grammar": {
+      "part_of_speech": "noun (masculine)",
+      "lemma_vs_inflected": "Lemma ਸਬਦੁ. The sihari-marked instrumental form ਸਬਦਿ (\"through/by the Shabad\") is extremely frequent and grammatically distinct from the plain oblique ਸਬਦ.",
+      "lagaan_matra_note": "The instrumental/locative sihari ending is one of the most theologically significant markers for this word — 'ਸਬਦਿ ਮਰੈ' (\"dies through/by the Shabad\") is grammatically distinct from a plain nominative or oblique occurrence, shifting the sense from 'the Shabad [as topic]' to 'by means of the Shabad.'",
+      "sentence_function": "Frequently the instrumental means by which an action (dying to ego, merging, awakening) is accomplished, not merely the grammatical subject or object.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran (treatment of the sihari-marked instrumental case)"
+    },
+    "senses": [
+      {
+        "attested_meaning": "A hymn/composition of Gurbani.",
+        "register": "everyday | liturgical",
+        "usage_note": "Used straightforwardly for an individual composition when discussing the text's own structure.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": null,
+            "verse_transliteration": null,
+            "author": null,
+            "raag": null,
+            "ang": null,
+            "source": "No single-line citation needed for this structural/self-referential sense; attested by the text's own organizing convention (shabads as titled units within each raag section) rather than one verse.",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "attested_meaning": "The Word/sound-principle through which truth is revealed and by which the ego is directly acted upon.",
+        "register": "philosophical",
+        "usage_note": "Carried specifically by the instrumental sihari form (ਸਬਦਿ) rather than the plain noun; this is where the term does the most theological/operative work in the text.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": "ਗੁਰ ਕਾ ਸਬਦੁ ਵਸੈ ਮਨਿ ਆਇ ॥",
+            "verse_transliteration": "Gur ka sabad vasai man aae",
+            "author": "Guru Amar Das Ji (Mahala 3)",
+            "raag": null,
+            "ang": null,
+            "source": "Recalled as a representative recurring phrase-pattern in SGGS (\"gur ka sabad ... man\"), not one verified single occurrence — flagged for corpus confirmation of exact wording and location.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "attested",
+      "candidates": [
+        {
+          "source_language": "Sanskrit",
+          "original_script_form": "शब्द (śabda)",
+          "components": ["शब्द — a single root, not further decomposed in standard Sanskrit grammar"],
+          "root_meaning": "sound, word, articulate utterance",
+          "authority": "Monier-Williams; Mahan Kosh",
+          "confidence": "high"
+        }
+      ],
+      "root_vs_usage_gap": "The Sanskrit root is a general linguistic/acoustic term (any sound or word). Gurbani usage narrows it to a specific soteriological category — the Guru's revealed utterance treated as causally efficacious (something one 'dies through' or is 'immersed in') — a much stronger operative claim than the neutral root meaning."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji", "Guru Amar Das Ji", "Kabir Ji", "Guru Arjan Dev Ji"],
+      "adaptation_note": {
+        "text": "The philosophical weight of śabda as a near-ontological category (śabda-brahman — reality construed as sound/word) is already present in classical Vedanta and grammar-philosophy prior to Guru Nanak. Kabir ji's shabads carry the same operative sense of the Word as an active force, suggesting the concept is inherited from wider Sant-Bhakti/Vedantic discourse rather than coined within Gurbani.",
+        "layer": "interpretive",
+        "confidence": "medium"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "The instrumental case marking (Sabadi) structurally positions the Shabad as the operator/tool that acts on the self ('dies through the Shabad'), not an object the self acts upon. This supports reading Sabad as an intervention applied to the Man/Haumai system from outside its own loop, rather than a belief the mind adopts within the same loop.",
+      "grounded_in": "the attested instrumental-case ('sabadi') sense above",
+      "confidence": "medium"
+    },
+    "see_also": ["gur", "naad", "bani"],
+    "overall_confidence": "high",
+    "sources": [
+      "Mahan Kosh",
+      "Prof. Sahib Singh, Gurbani Viakaran",
+      "Monier-Williams Sanskrit-English Dictionary"
+    ]
+  },
+  {
+    "word": "ਹਉਮੈ",
+    "transliteration": "Haumai",
+    "variant_spellings": ["ਹਉਮੈ (standard form)"],
+    "grammar": {
+      "part_of_speech": "noun (feminine), compound",
+      "lemma_vs_inflected": "Functions largely as an invariant compound noun — it does not show the same nominative/oblique aunkar alternation as Gur/Sabad. Appears mostly in constructions like ਹਉਮੈ ਵਿਚਿ (\"within haumai\") or ਹਉਮੈ ਮਾਰਿ (\"striking down haumai\").",
+      "lagaan_matra_note": "Unlike Gur/Sabad, Haumai's own ending does not carry a nominative/oblique contrast; grammatical variability shows up instead in the surrounding verbs and postpositions (marai, gavaiye, vichi).",
+      "sentence_function": "Typically the object of a verb of destruction/loss (marna \"to die to\", gavauna \"to lose\") or the locative field within which something happens — rarely the grammatical subject performing an action itself.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran"
+    },
+    "senses": [
+      {
+        "attested_meaning": "Egotism — the self-referential 'I-am-I' sense named as the central obstacle to God-realization.",
+        "register": "philosophical | psychological",
+        "usage_note": "Named directly as a 'disease' (rog) in a well-known couplet, with its own remedy said to lie within it via the Shabad.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": "ਹਉਮੈ ਦੀਰਘ ਰੋਗੁ ਹੈ ਦਾਰੂ ਭੀ ਇਸੁ ਮਾਹਿ ॥",
+            "verse_transliteration": "Haumai deeragh rog hai daaru bhee is maahi",
+            "author": "Guru Amar Das Ji (Mahala 3)",
+            "raag": null,
+            "ang": null,
+            "source": "Recalled from memory as a widely cited couplet in Sikh teaching; exact Ang/raag placement not independently verified this session.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "probable",
+      "candidates": [
+        {
+          "source_language": "Prakrit/Apabhramsha (from Sanskrit)",
+          "original_script_form": "अहं (ahaṁ, \"I\") doubled with a first-person oblique form",
+          "components": ["ਹਉ (hau, \"I\" — from Sanskrit अहम् ahám via Prakrit अहं ahaṁ)", "ਮੈ (mai, \"me\" — emphatic/oblique first person)"],
+          "root_meaning": "a doubled first-person construction: \"I-me\"",
+          "authority": "Mahan Kosh notes the doubled first-person derivation; this is the standard scholarly account, though a second independent linguistic source was not cross-checked this session",
+          "confidence": "medium"
+        }
+      ],
+      "root_vs_usage_gap": "The root is a grammatical curiosity — two first-person pronoun forms fused, rather than a philosophical term borrowed wholesale (unlike Sabad or Karam). Gurbani usage turns this grammatical doubling into the proper name of a specific spiritual-psychological affliction. Notably, Gurbani does NOT use the existing Sanskrit philosophical term ahamkara (अहंकार) for this concept, choosing the native doubled-pronoun compound instead — a real coinage, not a borrowed category."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji", "Guru Amar Das Ji"],
+      "adaptation_note": {
+        "text": "This term appears to be a Gurbani-internal coinage rather than one adopted from an identifiable external source text. I do not have confident evidence of Kabir ji or other Bhagats using this exact compound as heavily as the Guru Sahiban do, and flag this for corpus verification rather than asserting cross-Bhagat usage I'm not sure of.",
+        "layer": "interpretive",
+        "confidence": "low"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "Grammatically, Haumai is almost never the subject of a sentence — it is what is acted upon (killed, lost, dissolved) or the field within which something happens. This matches a reading of Haumai as a recursive tracking-process (a doubled self-reference, 'I' referring to 'me') rather than an entity or agent — consistent with treating it as a loop to interrupt rather than an opponent to defeat.",
+      "grounded_in": "the attested 'doubled first-person, self-referential obstacle' sense above",
+      "confidence": "medium"
+    },
+    "see_also": ["man", "sabad", "aap"],
+    "overall_confidence": "medium",
+    "sources": [
+      "Mahan Kosh",
+      "Prof. Sahib Singh, Gurbani Viakaran",
+      "memory recall — several details flagged medium/low confidence and not independently corpus-verified this session"
+    ]
+  },
+  {
+    "word": "ਹੁਕਮੁ",
+    "transliteration": "Hukam",
+    "variant_spellings": ["ਹੁਕਮੁ (nominative)", "ਹੁਕਮਿ (instrumental/locative — \"by/within the Hukam\")", "ਹੁਕਮੈ (further-inflected locative)", "ਹੁਕਮ (oblique)"],
+    "grammar": {
+      "part_of_speech": "noun (masculine), loanword",
+      "lemma_vs_inflected": "Lemma ਹੁਕਮੁ. The sihari-marked instrumental/locative form ਹੁਕਮਿ (\"by/through/within the Order\") is the most theologically loaded form, distinct from the plain nominative.",
+      "lagaan_matra_note": "As with Sabad, the sihari-marked instrumental form shifts the word from naming the Order as a topic to describing something as happening 'within' or 'by means of' it — e.g. ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ (\"all are within the Hukam\") uses a further-inflected locative.",
+      "sentence_function": "Frequently the locative field ('within the Hukam') rather than a direct grammatical object — a similar 'field word' pattern to Haumai, though for the opposite theological reason (Hukam encompasses; Haumai afflicts).",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran"
+    },
+    "senses": [
+      {
+        "attested_meaning": "Command, in the everyday administrative/legal sense.",
+        "register": "everyday",
+        "usage_note": "Retains a plain administrative sense in some occurrences, distinct from the cosmic-order sense.",
+        "confidence": "medium",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": null,
+            "verse_transliteration": null,
+            "author": null,
+            "raag": null,
+            "ang": null,
+            "source": "No specific citation identified this session for the plain administrative sense in isolation from the cosmic-order sense; flagged for corpus search.",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "attested_meaning": "The Divine Order/Will — the encompassing law within which all created things exist and move.",
+        "register": "philosophical",
+        "usage_note": "The dominant sense in Japji Sahib's opening pauris, where grasping Hukam is presented as the direct answer to the composition's opening question about becoming sachiar.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮਿ ਨ ਕੋਇ ॥",
+            "verse_transliteration": "Hukamai andar sabh ko baahar hukam na koe",
+            "author": "Guru Nanak Dev Ji (Mahala 1)",
+            "raag": null,
+            "ang": 1,
+            "source": "Recalled from memory as Japji Sahib, Pauri 1. Its placement on Ang 1 follows from the Mool Mantar and opening pauris' fixed position in standard SGGS pagination, but was not independently re-verified against a live corpus this session.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "attested",
+      "candidates": [
+        {
+          "source_language": "Arabic (via Persian administrative usage)",
+          "original_script_form": "حکم (ḥukm)",
+          "components": ["ح-ك-م (ḥ-k-m) triliteral root, \"to judge, to rule, to be wise\""],
+          "root_meaning": "a judgment, ruling, or command issued by an authority",
+          "authority": "standard Arabic lexicography (ḥ-k-m root); Mahan Kosh confirms the Persian/Arabic administrative-loanword derivation into Punjabi",
+          "confidence": "high"
+        }
+      ],
+      "root_vs_usage_gap": "The root is narrowly administrative/legal — a ruler's specific decree. Gurbani usage stretches this into a cosmological category covering the entirety of natural and moral law — a gap of scale (a particular command → universal Order), not of kind."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji"],
+      "adaptation_note": {
+        "text": "I do not have confident recall of Kabir ji, Ravidas ji, or Farid ji using this specific Persian-administrative term as a load-bearing theological category the way Guru Nanak does in Japji Sahib; Farid ji's bani draws on a different, more directly Quranic/Sufi vocabulary (e.g. Rabb) for divine authority. Flagged as Guru-Nanak-specific pending a corpus check across the Bhagat Bani.",
+        "layer": "interpretive",
+        "confidence": "medium"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "Grammatically encompassing (things exist 'within' Hukam, locative case) rather than imposed on an external object, Hukam structurally reframes the self as already inside a governing order rather than a separate agent negotiating with one. The text pairs recognizing this directly with the loss of Haumai in the same couplet, suggesting the 'operation' here is a reframing of location (inside vs. outside a system) rather than an addition of belief.",
+      "grounded_in": "the attested 'encompassing Divine Order' sense above, and its direct textual pairing with Haumai in Japji Sahib Pauri 1",
+      "confidence": "medium"
+    },
+    "see_also": ["haumai", "karam", "gur"],
+    "overall_confidence": "high",
+    "sources": [
+      "Mahan Kosh",
+      "Prof. Sahib Singh, Gurbani Viakaran",
+      "standard Arabic ḥ-k-m root lexicography",
+      "memory recall of Japji Sahib Pauri 1 — not independently corpus-verified this session"
+    ]
+  }
+]
