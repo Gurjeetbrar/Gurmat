@@ -364,5 +364,353 @@
       "standard Arabic ḥ-k-m root lexicography",
       "memory recall of Japji Sahib Pauri 1 — not independently corpus-verified this session"
     ]
+  },
+  {
+    "word": "ਸੁਰਤਿ",
+    "transliteration": "Surat",
+    "variant_spellings": ["ਸੁਰਤਿ (standard)", "ਸੁਰਤ (oblique)"],
+    "grammar": {
+      "part_of_speech": "noun (feminine)",
+      "lemma_vs_inflected": "Lemma ਸੁਰਤਿ. Behaves as a feminine noun with comparatively stable ending across cases, appearing frequently in construct with a verb of joining/attaching (ਸੁਰਤਿ ਸਮਾਲਿ — \"attend to/gather the surat\") or instrumentally paired with Sabad (ਸੁਰਤਿ ਸਬਦਿ — \"consciousness [attuned] through the Shabad\").",
+      "lagaan_matra_note": "The sihari-final form is comparatively stable across occurrences — feminine nouns in Gurbani generally show less case-marking variation than masculine ones like Gur/Sabad/Hukam. The grammatical action is carried more by the accompanying postposition/verb than by inflection of Surat itself.",
+      "sentence_function": "Usually the subject or topic of an action of attending, merging, or attuning — frequently paired instrumentally with Sabad to describe the mechanism of attunement.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran"
+    },
+    "senses": [
+      {
+        "attested_meaning": "Consciousness, attention, or the faculty of awareness that can be focused/attuned.",
+        "register": "philosophical | psychological",
+        "usage_note": "Frequently combined with Shabad as 'Surat Shabad' naming the specific practice/state of attuning consciousness to the Word.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": "ਸਬਦੁ ਗੁਰੂ ਸੁਰਤਿ ਧੁਨਿ ਚੇਲਾ ॥",
+            "verse_transliteration": "Sabad Guru Surat Dhun Chela",
+            "author": "Guru Nanak Dev Ji (Mahala 1)",
+            "raag": "Raag Ramkali (Siddh Gosht)",
+            "ang": null,
+            "source": "Recalled from memory as a well-known line from Siddh Gosht (Guru Nanak's recorded dialogue with the Nath yogis); exact Ang not independently verified this session.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "disputed",
+      "candidates": [
+        {
+          "source_language": "Sanskrit",
+          "original_script_form": "सुरति (surati), possibly सु (su-, \"well\") + रति (rati, \"resting in, delight\")",
+          "components": ["सु (su-, \"good, well\")", "रति (rati, \"attachment, delight, resting in\")"],
+          "root_meaning": "\"well-resting/delighting attention\", on this candidate derivation",
+          "authority": "one line of Punjabi lexicographic treatment; not independently cross-checked against Mahan Kosh this session",
+          "confidence": "low"
+        },
+        {
+          "source_language": "Sanskrit",
+          "original_script_form": "श्रुति (śruti)",
+          "components": ["श्रु (śru, \"to hear\")"],
+          "root_meaning": "\"hearing, that which is heard/revealed\", on this alternate candidate derivation",
+          "authority": "an alternate derivation connecting Surat to the general Indic root for hearing/revelation; not independently cross-checked this session",
+          "confidence": "low"
+        }
+      ],
+      "root_vs_usage_gap": "Whichever specific Sanskrit root is correct, Gurbani usage narrows 'surat' to a specific technical sense: the directed, trainable faculty of awareness that can be attuned to the Shabad — closer to a technical term for 'the listening/attending function of consciousness' than to either candidate root's general meaning alone. The origin itself is flagged disputed rather than asserted as settled."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji"],
+      "adaptation_note": {
+        "text": "'Surat' appears prominently in Siddh Gosht, a composition explicitly staged as Guru Nanak's dialogue with Nath yogis. The term (attention/consciousness as a trainable faculty) is common currency in Nath-yogic vocabulary — surat-shabad-yoga is a recognized later Sant/Nath technical term — so Guru Nanak may be engaging existing Nath terminology rather than introducing a new concept.",
+        "layer": "interpretive",
+        "confidence": "medium"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "If Surat names a trainable, directable faculty of attention distinct from Man (the mind) and Haumai (self-referential tracking), the operative claim is that awareness itself can be redirected away from self-tracking and toward the Shabad as an object of attunement — treating attention as a lever separate from belief-content or willpower.",
+      "grounded_in": "the attested 'directed faculty of awareness attuned to Shabad' sense above",
+      "confidence": "medium"
+    },
+    "see_also": ["sabad", "naad", "sahaj"],
+    "overall_confidence": "medium",
+    "sources": [
+      "Mahan Kosh (origin discussion inconclusive)",
+      "Prof. Sahib Singh, Gurbani Viakaran",
+      "memory recall of Siddh Gosht — not independently corpus-verified this session"
+    ]
+  },
+  {
+    "word": "ਨਾਦੁ",
+    "transliteration": "Naad",
+    "variant_spellings": ["ਨਾਦੁ (nominative)", "ਨਾਦਿ (instrumental/locative)", "ਨਾਦ (oblique)"],
+    "grammar": {
+      "part_of_speech": "noun (masculine)",
+      "lemma_vs_inflected": "Lemma ਨਾਦੁ. Instrumental/locative ਨਾਦਿ marks 'through/by sound' constructions, paralleling Sabad's grammatical behavior.",
+      "lagaan_matra_note": "Same aunkar/sihari case system as Gur/Sabad/Hukam: ਨਾਦੁ nominative vs ਨਾਦਿ instrumental.",
+      "sentence_function": "Often paired with Naam and Ved in cumulative/list constructions (e.g. the Vismaad pauri) rather than standing as a sole grammatical subject.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran"
+    },
+    "senses": [
+      {
+        "attested_meaning": "Sound, sound-current — used both for musical/cosmic sound and, compounded as 'Anhad Naad', the 'unstruck' inner sound.",
+        "register": "philosophical | Nath-yogic technical",
+        "usage_note": "Appears independently (as an object of wonder, e.g. the Vismaad pauri) and compounded with 'Anhad' as a specific meditative-technical term.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": "ਵਿਸਮਾਦੁ ਨਾਦ ਵਿਸਮਾਦੁ ਵੇਦ ॥",
+            "verse_transliteration": "Vismaad naad vismaad ved",
+            "author": "Guru Nanak Dev Ji (Mahala 1)",
+            "raag": null,
+            "ang": 1,
+            "source": "Recalled from memory, Japji Sahib Pauri 16, on Ang 1 per standard SGGS pagination (Japji Sahib spans Ang 1-8); not independently re-verified against a live corpus this session.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "attested",
+      "candidates": [
+        {
+          "source_language": "Sanskrit",
+          "original_script_form": "नाद (nāda)",
+          "components": ["नाद — single root, from नद् (nad, \"to sound, roar\")"],
+          "root_meaning": "sound, roar, resonance",
+          "authority": "Monier-Williams; Mahan Kosh",
+          "confidence": "high"
+        }
+      ],
+      "root_vs_usage_gap": "The Sanskrit root is a general acoustic term. Its specific technical use in the compound 'Anhad Naad' (unstruck sound) draws on a much narrower classical yogic/Nath cosmological doctrine (nāda as a stage of subtle sound in nada-yoga systems) rather than the general Sanskrit word alone."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji", "Kabir Ji"],
+      "adaptation_note": {
+        "text": "Kabir ji, closely engaged with Nath-yogic circles, uses 'Naad' (and 'Anhad Naad') in the same technical sense inherited from Nath meditative doctrine — adopted terminology from that tradition rather than a Gurbani-internal coinage.",
+        "layer": "interpretive",
+        "confidence": "medium"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "As a component of 'Anhad Naad' (sound with no external striking cause), Naad structurally names an internally-arising signal not produced by ordinary cause-and-effect contact — a marker or target distinct from the mind's own generated noise (thought, haumai-chatter), something to attune Surat toward rather than something the mind manufactures.",
+      "grounded_in": "the attested Anhad Naad technical sense above",
+      "confidence": "low"
+    },
+    "see_also": ["surat", "sabad"],
+    "overall_confidence": "high",
+    "sources": [
+      "Monier-Williams Sanskrit-English Dictionary",
+      "Mahan Kosh",
+      "Prof. Sahib Singh, Gurbani Viakaran",
+      "memory recall of Japji Sahib Pauri 16 — not independently corpus-verified this session"
+    ]
+  },
+  {
+    "word": "ਨਿਗੁਰਾ",
+    "transliteration": "Nigura",
+    "variant_spellings": ["ਨਿਗੁਰਾ (masculine singular)", "ਨਿਗੁਰੇ (oblique/plural)"],
+    "grammar": {
+      "part_of_speech": "adjective (used substantivally as \"one who is guru-less\")",
+      "lemma_vs_inflected": "Formed by prefixing the negative/privative ਨਿ (ni-) to ਗੁਰ (gur, oblique form of guru) plus the adjectival kanna (ਾ) ending characteristic of Punjabi -a stem adjectives (cf. ਕਾਲਾ kala, \"black\").",
+      "lagaan_matra_note": "The kanna-ending marks it grammatically as an adjective inflecting for gender/number like other -a stem adjectives (ਨਿਗੁਰਾ masc. sg., ਨਿਗੁਰੇ oblique/plural) — a distinct system from the nominative/oblique noun-case pattern of Guru itself.",
+      "sentence_function": "Functions predicatively or attributively, describing a person as lacking a Guru/being unguided — generally in a cautionary or negative register.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran (treatment of ni- privative adjective formations)"
+    },
+    "senses": [
+      {
+        "attested_meaning": "One without a Guru; guideless, spiritually unguided.",
+        "register": "philosophical | cautionary",
+        "usage_note": "Used to describe the condition of a person cut off from Guru-guidance, generally negatively.",
+        "confidence": "medium",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": null,
+            "verse_transliteration": null,
+            "author": null,
+            "raag": null,
+            "ang": null,
+            "source": "I recall this term occurring in Gurbani in warning contexts but could not confidently reconstruct a specific verse this session without risk of misquoting. Flagged for corpus lookup rather than invented.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "attested",
+      "candidates": [
+        {
+          "source_language": "Sanskrit/Punjabi (native negative-prefix formation)",
+          "original_script_form": "नि (ni-, privative prefix) + गुरु (guru)",
+          "components": ["ਨਿ (ni-, \"without, lacking\")", "ਗੁਰ (gur, oblique of guru)"],
+          "root_meaning": "\"without a Guru\"",
+          "authority": "Mahan Kosh; standard Punjabi privative adjective formation (ni- + noun + -a)",
+          "confidence": "high"
+        }
+      ],
+      "root_vs_usage_gap": "Essentially no gap — this is a transparent, compositionally clear formation whose Gurbani sense matches its grammatical construction directly."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Gurbani generally — specific author/composition attribution not independently verified this session"],
+      "adaptation_note": {
+        "text": "I do not have a specific, confidently-recalled Bhagat occurrence of this exact term to report. Flagged for verification rather than asserting Bhagat usage I'm unsure of.",
+        "layer": "interpretive",
+        "confidence": "low"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "Naming the state of being 'unguided' as a specific, nameable condition (rather than simply 'wrong' or 'sinful') structurally implies the default/untrained state of Man is disconnected from any external reference point — consistent with reading Haumai not as a moral failure so much as the default condition of a system running without Gur/Sabad input.",
+      "grounded_in": "the attested 'without a Guru' sense above",
+      "confidence": "low"
+    },
+    "see_also": ["gur", "satgur"],
+    "overall_confidence": "medium",
+    "sources": [
+      "Mahan Kosh",
+      "Prof. Sahib Singh, Gurbani Viakaran (privative adjective formation)",
+      "no specific verse citation available this session"
+    ]
+  },
+  {
+    "word": "ਸਹਜ",
+    "transliteration": "Sahaj",
+    "variant_spellings": ["ਸਹਜ (noun/adjective base)", "ਸਹਜੇ (adverbial — \"spontaneously, naturally, easily\")"],
+    "grammar": {
+      "part_of_speech": "noun / adjective / adverb (multi-functional)",
+      "lemma_vs_inflected": "Base form ਸਹਜ functions as noun ('a state of Sahaj') or adjective. The adverbial form ਸਹਜੇ (with added vowel) is extremely common, modifying a verb of action (e.g. patterns like 'sahaje aavai sahaje jaavai', roughly \"comes/goes spontaneously\").",
+      "lagaan_matra_note": "The added final vowel in ਸਹਜੇ marks the adverbial function, grammatically distinct from the bare noun/adjective ਸਹਜ — this shift from noun to adverb is a significant grammatical fact often collapsed when the word is translated as a single English noun ('equipoise').",
+      "sentence_function": "As adverb, modifies the manner of an action (spontaneously, without effort); as noun, names the resulting state itself.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran"
+    },
+    "senses": [
+      {
+        "attested_meaning": "A state of innate, effortless balance/poise; also functions adverbially meaning 'spontaneously, naturally, without strain.'",
+        "register": "philosophical | Nath-yogic technical",
+        "usage_note": "The adverbial form (Sahaje) is at least as frequent as the nominal form in SGGS and should not be collapsed into a single 'noun' gloss.",
+        "confidence": "high",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": null,
+            "verse_transliteration": null,
+            "author": null,
+            "raag": null,
+            "ang": null,
+            "source": "I recall the adverbial pattern ('sahaje ... sahaje') recurring across multiple shabads but could not confidently reconstruct one specific verse without risk of conflating separate occurrences. Flagged for corpus lookup rather than invented.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "attested",
+      "candidates": [
+        {
+          "source_language": "Sanskrit",
+          "original_script_form": "सहज (sahaja)",
+          "components": ["सह (saha, \"with, together\")", "ज (ja, \"born\" — from जन् jan, \"to be born\")"],
+          "root_meaning": "\"born together with\" — hence \"innate, natural, arising spontaneously with [something]\"",
+          "authority": "Monier-Williams; Mahan Kosh",
+          "confidence": "high"
+        }
+      ],
+      "root_vs_usage_gap": "The compositional root meaning ('born-together-with', i.e. innate) matches Gurbani usage closely for the noun/adjective sense. The specific grammatical extension into an adverb of manner (Sahaje, \"effortlessly\") is a Punjabi-internal grammatical development, not already present as such in the Sanskrit source."
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji", "Kabir Ji"],
+      "adaptation_note": {
+        "text": "'Sahaja' was already a key technical term of the Nath yogis and the wider Sahajiya Tantric-Bhakti currents (naming a distinct meditative attainment) before Guru Nanak or Kabir ji use it; both appear to be engaging existing Nath/Sahajiya vocabulary rather than introducing a new term.",
+        "layer": "interpretive",
+        "confidence": "medium"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "The grammatical fact that Sahaj most often appears as an adverb of manner (how an action happens) rather than a state one arrives at and stops, suggests it names a mode of ongoing functioning ('happening sahaje') rather than a final achieved endpoint — compatible with reading the goal as a change in how the Man/Surat system operates moment to moment, not a one-time permanent switch.",
+      "grounded_in": "the attested adverbial 'spontaneously/naturally' sense above",
+      "confidence": "medium"
+    },
+    "see_also": ["surat", "naad"],
+    "overall_confidence": "high",
+    "sources": [
+      "Monier-Williams Sanskrit-English Dictionary",
+      "Mahan Kosh",
+      "Prof. Sahib Singh, Gurbani Viakaran",
+      "no specific verse citation independently verified this session"
+    ]
+  },
+  {
+    "word": "ਚੀਨਸਿ",
+    "transliteration": "Cheenas / Cheenasi",
+    "variant_spellings": ["ਚੀਨਸਿ (a specific inflected verb form)", "ਚੀਨੈ (alternate present form)", "ਚੀਨਹੁ (2nd person plural imperative, \"recognize! [you all]\")", "ਚੀਨ੍ਹਿ (absolutive/conjunctive, \"having recognized\")"],
+    "grammar": {
+      "part_of_speech": "verb (not a noun) — root ਚੀਨਣਾ/ਚੀਨ੍ਹਣਾ (cheenna/cheenhna, \"to recognize, examine, discern\")",
+      "lemma_vs_inflected": "The infinitive/lemma is ਚੀਨਣਾ (cheenna). ਚੀਨਸਿ is a specific finite inflected form; per Sahib Singh's grammar, -ਸਿ endings on verbs generally mark a general/habitual or optative present sense, roughly \"[one] recognizes / may [one] recognize\" — distinct from the imperative ਚੀਨਹੁ or the absolutive ਚੀਨ੍ਹਿ.",
+      "lagaan_matra_note": "The ਸਿ ending here is a verb-conjugation marker, not a noun case-ending — grammatically unlike every noun entry in this batch (Gur, Satgur, Sabad, Haumai, Hukam, Surat, Naad) and should not be analyzed with the nominative/oblique noun framework.",
+      "sentence_function": "Functions as the main verb of a clause, typically instructing or describing the act of recognizing/discerning something (often the Self, Hukam, or the Shabad) rather than naming a concept as a noun would.",
+      "authority": "Prof. Sahib Singh, Gurbani Viakaran (treatment of verb-ending conjugation patterns including -si forms)"
+    },
+    "senses": [
+      {
+        "attested_meaning": "To recognize, discern, or examine closely — most often used with reference to recognizing one's own true nature/origin or Hukam.",
+        "register": "philosophical | instructive/imperative",
+        "usage_note": "Frequently used in address to the reader/listener as an instruction to actively examine or recognize something, not to describe a passive state.",
+        "confidence": "medium",
+        "textual_evidence": [
+          {
+            "verse_gurmukhi": null,
+            "verse_transliteration": null,
+            "author": null,
+            "raag": null,
+            "ang": null,
+            "source": "I recall this root verb occurring in instructive contexts (e.g. being told to recognize one's own Self/origin) but could not confidently reconstruct the exact verse carrying this specific -si inflected form without risk of error. Flagged for corpus lookup rather than invented.",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "linguistic_origin": {
+      "status": "disputed",
+      "candidates": [
+        {
+          "source_language": "Sanskrit (via Prakrit)",
+          "original_script_form": "चिह्न (cihna, \"mark, sign, token\")",
+          "components": ["चिह्न — nominal root, denominalized into a verb of \"marking/identifying\""],
+          "root_meaning": "to identify or recognize something by its distinguishing mark/sign, on this candidate derivation",
+          "authority": "my own best recollection of standard Punjabi etymological treatment; not independently cross-checked against Mahan Kosh or another dedicated etymological authority this session",
+          "confidence": "low"
+        },
+        {
+          "source_language": "Sanskrit (alternate candidate)",
+          "original_script_form": "चिन्तन (cintana) / root चिन्त् (cint, \"to think, reflect, consider\")",
+          "components": ["चिन्त् — verbal root \"to think/consider\""],
+          "root_meaning": "to think over, consider, reflect upon, on this alternate candidate derivation",
+          "authority": "an alternate derivation I am aware exists in some treatments; not independently verified this session",
+          "confidence": "low"
+        }
+      ],
+      "root_vs_usage_gap": "Regardless of which Sanskrit root is correct, Gurbani usage clearly means an active, discerning 'recognition/examination' (of the Self, of Hukam, of one's own origin) rather than passive perception — closer to 'actively identify/discern' than to simple 'see' or 'know.'"
+    },
+    "cross_linguistic_profile": {
+      "authors_who_use_it": ["Guru Nanak Dev Ji — specific composition not independently verified this session"],
+      "adaptation_note": {
+        "text": "I do not have confident recall of this specific verb form being a hallmark of any particular Bhagat's composition. Flagged for corpus verification rather than asserting a cross-author pattern I'm unsure of.",
+        "layer": "interpretive",
+        "confidence": "low"
+      }
+    },
+    "operational_reading": {
+      "layer": "INTERPRETIVE — a structural reading, not the attested meaning",
+      "reading": "As an imperative/instructive verb rather than a noun naming a state, 'Cheenas'-type forms structurally frame realization as an act the practitioner is directed to perform (examine, discern, identify) repeatedly, rather than a status conferred or a thing possessed — shifting the operative frame from 'having' a realization to 'doing' an ongoing act of recognition.",
+      "grounded_in": "the attested 'active recognition/discernment' sense above",
+      "confidence": "medium"
+    },
+    "see_also": ["surat", "sahaj"],
+    "overall_confidence": "low",
+    "sources": [
+      "Prof. Sahib Singh, Gurbani Viakaran (verb conjugation patterns)",
+      "memory recall only for etymology candidates — flagged low confidence, not cross-checked against Mahan Kosh this session",
+      "no specific verse citation available this session"
+    ]
   }
 ]
